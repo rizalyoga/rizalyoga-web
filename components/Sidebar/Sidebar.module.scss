@@ -1,0 +1,91 @@
+.nav-bar {
+  background: #181818;
+  width: 90px;
+  height: 100vh;
+  //   position: absolute;
+  top: 0;
+  z-index: 3;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .logos {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .logo {
+      display: block;
+      padding: 8px 0;
+
+      .images {
+        display: block;
+        margin: 8px auto;
+        width: 24px;
+        height: auto;
+      }
+
+      .sub-logo {
+        width: 50px;
+      }
+    }
+  }
+
+  .navigations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    // position: absolute;
+
+    .nav-home,
+    .nav-about,
+    .nav-contact {
+      width: 30px;
+      transition: all 0.3s ease-in;
+    }
+
+    & :hover {
+      color: #ffd700;
+      cursor: pointer;
+
+      svg {
+        opacity: 0;
+      }
+    }
+  }
+
+  .sosmed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    ul {
+      display: block;
+      list-style: none;
+      text-align: center;
+      width: 100%;
+      margin-left: -15px;
+
+      li {
+        margin: 20px 0;
+
+        a {
+          display: block;
+          width: 25px;
+          line-height: 16px;
+        }
+
+        & :hover {
+          color: #ffd700;
+        }
+      }
+    }
+  }
+}
