@@ -1,6 +1,6 @@
 .nav-bar {
   background: #181818;
-  width: 90px;
+  width: 80px;
   height: 100vh;
   //   position: absolute;
   top: 0;
@@ -46,7 +46,7 @@
     .nav-home,
     .nav-about,
     .nav-contact {
-      width: 30px;
+      width: 25px;
       transition: all 0.3s ease-in;
     }
 
@@ -71,15 +71,16 @@
       list-style: none;
       text-align: center;
       width: 100%;
-      margin-left: -15px;
+      margin-left: -25px;
 
       li {
         margin: 20px 0;
 
         a {
           display: block;
-          width: 25px;
+          width: 20px;
           line-height: 16px;
+          transition: 0.3s ease-in;
         }
 
         & :hover {

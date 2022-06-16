@@ -11,7 +11,12 @@ const Layout = ({children} : ChildrenProps) => {
     <main className={styles.mains}>
         <Sidebar />
         <div className={styles.children}>
+          <span className={`${styles.tags} ${styles['top-tags']}`}>&lt;body&gt;</span>
             {children}
+          <span className={`${styles.tags} ${styles['bottom-tags']}`}>&lt;body&gt;
+            <br />
+            <span className={styles['bottom-tags-html']}>&lt;html&gt;</span>
+          </span>
         </div>
     </main>
   )
