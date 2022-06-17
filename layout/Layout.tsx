@@ -1,13 +1,19 @@
 import React from 'react'
+import Head from 'next/head';
 import Sidebar from '../components/Sidebar/Sidebar';
 import styles from "./Layout.module.scss"
 
 interface ChildrenProps {
-    children: React.ReactNode;
+    children : React.ReactNode;
+    title? : string;
 }
 
-const Layout = ({children} : ChildrenProps) => {
+const Layout = ({children, title = "RizalYoga"} : ChildrenProps) => {
   return (
+    <>
+    <Head>
+      <title>{`RizalYoga ${title}`}</title>
+    </Head>
     <main className={styles.mains}>
         <Sidebar />
         <div className={styles.children}>
@@ -19,6 +25,7 @@ const Layout = ({children} : ChildrenProps) => {
           </span>
         </div>
     </main>
+    </>
   )
 }
 

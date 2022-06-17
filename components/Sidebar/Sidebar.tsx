@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { useRouter } from 'next/router'
 import styles from "./Sidebar.module.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
@@ -11,30 +12,48 @@ import LogoSubtitle from "../../public/assets/images/logo_sub.png"
 import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => {
+  const router = useRouter()
+
+  const activePage = () => {
+    if (router.pathname === '/') {
+        return styles.active;
+    } else if (router.pathname === '/about') {
+        return styles.active;
+    } else if (router.pathname === '/contact') {
+        return styles.active;
+    }
+  }
+
+  useEffect(
+    () => {
+        activePage()
+  }, [router.pathname])
+  
+
   return (
        <div className={styles['nav-bar']}>
            <div className={styles.logos}>
                 <Link href="/">
-                    <div className={styles.logo}>
-                         <Image className={styles.images} src={LogoS} alt='logo' width="40" height="80"/>
-                    </div>
+                  <div className={styles.logo}>
+                       <Image className={styles.images} src={LogoS} alt='logo' width="40" height="80"/>
+                  </div>
                 </Link>
                 <Link href="/">
-                    <div className={styles.logo}>
-                         <Image className={styles['sub-logo']} src={LogoSubtitle} alt='logo-sub' width="70" height="12"/>
-                    </div>
+                  <div className={styles.logo}>
+                       <Image className={styles['sub-logo']} src={LogoSubtitle} alt='logo-sub' width="60" height="10"/>
+                  </div>
                 </Link>
            </div>
 
            <div className={styles.navigations}>
                <Link href='/'>
-                    <FontAwesomeIcon icon={faHome} className={styles['nav-home']} color='4d4d4e' />
+                    <FontAwesomeIcon icon={faHome} className={`${styles['nav-home']} ${activePage()}`} color={router.pathname="/" ? "ffd700" : "#4d4d4e"}/>
                </Link>
                <Link href='/about'>
-                    <FontAwesomeIcon icon={faUser} className={styles['nav-about']} color='4d4d4e' />
+                    <FontAwesomeIcon icon={faUser} className={`${styles['nav-about']} ${activePage()}`} color={router.pathname="/about" ? "ffd700": "#4d4d4e"}/>
                </Link>
                <Link href='/contact'>
-                    <FontAwesomeIcon icon={faEnvelope} className={styles['nav-contact']} color='4d4d4e' />
+                    <FontAwesomeIcon icon={faEnvelope} className={styles[`nav-contact`]} color={router.pathname="/contact" ? 'ffd700' : '4d4d4e'} />
                </Link>
            </div>
 

@@ -3,8 +3,10 @@ import Layout from '../../../layout/Layout'
 
 const AboutPage = () => {
   return (
-    <Layout>
+    <Layout title=' | About'>
+      <div className="container">
         <h1>AboutPage</h1>
+      </div>
     </Layout>
   )
 }

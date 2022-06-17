@@ -37,7 +37,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 25px;
     text-align: center;
     top: 40%;
     width: 100%;
@@ -47,6 +47,7 @@
     .nav-about,
     .nav-contact {
       width: 25px;
+      font-size: 25px;
       transition: all 0.3s ease-in;
     }
 
@@ -57,6 +58,10 @@
       svg {
         opacity: 0;
       }
+    }
+
+    & .active {
+      color: #ffd700;
     }
   }
 
@@ -79,6 +84,7 @@
         a {
           display: block;
           width: 20px;
+          font-size: 20px;
           line-height: 16px;
           transition: 0.3s ease-in;
         }

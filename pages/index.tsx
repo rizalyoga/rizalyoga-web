@@ -1,7 +1,6 @@
 import type { NextPage } from 'next'
 import HomePage from '../components/pages/home/Home'
 
-
 const Home: NextPage = () => {
   return (
    <>
