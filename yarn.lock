@@ -209,6 +209,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-loader@^2.4.5":
+  version "2.4.5"
+  resolved "https://registry.yarnpkg.com/@types/react-loader/-/react-loader-2.4.5.tgz#dc3d7d7870683f7349c3740d8872765cfab6e212"
+  integrity sha512-eBtnKxGx/B+z6kSOMiVBYLPZmXLZDVoChSYk57N91HZKB1wSPICHPrgvlhC5j8Y7MCfoYRt4/emRwh2OQIhFrg==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@18.0.5":
   version "18.0.5"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.5.tgz#1a4d4b705ae6af5aed369dec22800b20f89f5301"

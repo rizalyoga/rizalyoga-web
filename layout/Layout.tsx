@@ -8,11 +8,11 @@ interface ChildrenProps {
     title? : string;
 }
 
-const Layout = ({children, title = "RizalYoga"} : ChildrenProps) => {
+const Layout = ({children, title = ""} : ChildrenProps) => {
   return (
     <>
     <Head>
-      <title>{`RizalYoga ${title}`}</title>
+      <title>{`Rizalyoga ${title}`}</title>
     </Head>
     <main className={styles.mains}>
         <Sidebar />

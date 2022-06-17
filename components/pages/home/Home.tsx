@@ -2,24 +2,31 @@ import React,{useState,useEffect} from 'react'
 import styles from "./Home.module.scss"
 import Link from 'next/link'
 import Layout from '../../../layout/Layout'
+import Loader from 'react-loaders'
 
 import AnimateLetters from '../../animatedLetters/AnimateLetters'
 
 const HomePage = () => {
   const [letterClass, setLetterClass] = useState<string>('text-animate');
   const nameArray = [' ','R','i','z','a','l','y','o','g','a'];
-  const jobArray = ['W','e','b',' ','D','e','v','e','l','o','p','e','r','.']
+  const jobArray = ['W','e','b',' ','D','e','v','e','l','o','p','e','r','.',''];
+
+  useEffect(():any => {
+    setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 4000)
+  }, []);
 
   return (
-    <Layout title='| Home'>
+    <Layout>
       <div className={`container ${styles['home-page']}`}>
         <div className={styles["text-zone"]}>
           <h1>
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
             <br /> 
-            <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m,</span>
+            <span className={`${letterClass} _13`}>I'</span>
+            <span className={`${letterClass} _14`}>m,</span>
           <AnimateLetters 
             letterClass={letterClass} 
             strArray={nameArray}
@@ -31,15 +38,17 @@ const HomePage = () => {
           <AnimateLetters 
             letterClass={letterClass} 
             strArray={jobArray}
-            idx={22}
+            idx={21}
           />
+          <br />
           </h1>
-          <h2>Frontend Developer</h2>
+          <h2>Frontend Web Developer</h2>
           <Link href="/contact">
               <p className={styles['flat-button']}>CONTACT ME</p>
           </Link>
         </div>
       </div>
+      <Loader type='pacman' active/>
     </Layout>
   )
 }

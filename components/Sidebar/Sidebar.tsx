@@ -35,25 +35,49 @@ const Sidebar = () => {
            <div className={styles.logos}>
                 <Link href="/">
                   <div className={styles.logo}>
-                       <Image className={styles.images} src={LogoS} alt='logo' width="40" height="80"/>
+                       <Image 
+                        className={styles.images} 
+                        src={LogoS} 
+                        alt='logo' 
+                        width="40" 
+                        height="80"
+                       />
                   </div>
                 </Link>
                 <Link href="/">
                   <div className={styles.logo}>
-                       <Image className={styles['sub-logo']} src={LogoSubtitle} alt='logo-sub' width="60" height="10"/>
+                       <Image 
+                        className={styles['sub-logo']} 
+                        src={LogoSubtitle} 
+                        alt='logo-sub' 
+                        width="60" 
+                        height="10"
+                       />
                   </div>
                 </Link>
            </div>
 
            <div className={styles.navigations}>
                <Link href='/'>
-                    <FontAwesomeIcon icon={faHome} className={`${styles['nav-home']} ${activePage()}`} color={router.pathname="/" ? "ffd700" : "#4d4d4e"}/>
+                    <FontAwesomeIcon 
+                        icon={faHome} 
+                        className={`${styles['nav-home']} ${activePage()}`} 
+                        color={router.pathname="/" ? "ffd700" : "#4d4d4e"}
+                    />
                </Link>
                <Link href='/about'>
-                    <FontAwesomeIcon icon={faUser} className={`${styles['nav-about']} ${activePage()}`} color={router.pathname="/about" ? "ffd700": "#4d4d4e"}/>
+                    <FontAwesomeIcon 
+                        icon={faUser} 
+                        className={`${styles['nav-about']} ${activePage()}`} 
+                        color={router.pathname="/about" ? "ffd700": "#4d4d4e"}
+                    />
                </Link>
                <Link href='/contact'>
-                    <FontAwesomeIcon icon={faEnvelope} className={styles[`nav-contact`]} color={router.pathname="/contact" ? 'ffd700' : '4d4d4e'} />
+                    <FontAwesomeIcon 
+                        icon={faEnvelope} 
+                        className={styles[`nav-contact`]} 
+                        color={router.pathname="/contact" ? 'ffd700' : '4d4d4e'} 
+                    />
                </Link>
            </div>
 
@@ -70,7 +94,7 @@ const Sidebar = () => {
                        </a>
                    </li>
                    <li>
-                       <a href="https://facebook.com/rizalyoga" target='_blank' rel='noreferer'>
+                       <a href="https://www.facebook.com/achmadrizalyogaswara" target='_blank' rel='noreferer'>
                            <FontAwesomeIcon className={styles['sosmed-icon']} icon={faFacebook} color='fff' />
                        </a>
                    </li>
