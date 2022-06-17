@@ -12,7 +12,8 @@ const Layout = ({children, title = ""} : ChildrenProps) => {
   return (
     <>
     <Head>
-      <title>{`Rizalyoga ${title}`}</title>
+    <link rel="icon" href="./logo.png" type="image/x-icon" />
+      <title>{`Rizalyoga ${title}`}</title>    
     </Head>
     <main className={styles.mains}>
         <Sidebar />

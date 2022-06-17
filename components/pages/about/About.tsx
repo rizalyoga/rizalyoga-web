@@ -35,7 +35,8 @@ const AboutPage = () => {
             />
             <br />
           </h1>
-          <div className={styles["styles-desc"]}>
+
+          <div className={styles.desc}>
             <p>
               I'm very ambitious front-end developer looking for a role in
               established IT company with the opportunity to work with the latest
@@ -56,22 +57,22 @@ const AboutPage = () => {
         <div className={styles["stage-cube-cont"]}>
           <div className={styles.cubespinner}>
             <div className={styles.face1}>
-              <FontAwesomeIcon icon={faGithub} color="#000000" />
+              <FontAwesomeIcon icon={faGithub} />
             </div>
             <div className={styles.face2}>
-              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+              <FontAwesomeIcon icon={faHtml5} />
             </div>
             <div className={styles.face3}>
-              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              <FontAwesomeIcon icon={faCss3} />
             </div>
             <div className={styles.face4}>
-              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+              <FontAwesomeIcon icon={faReact} />
             </div>
             <div className={styles.face5}>
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+              <FontAwesomeIcon icon={faJsSquare} />
             </div>
             <div className={styles.face6}>
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+              <FontAwesomeIcon icon={faGitAlt} />
             </div>
           </div>
         </div>

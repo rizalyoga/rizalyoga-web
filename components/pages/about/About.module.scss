@@ -40,25 +40,26 @@
     }
   }
 
-  .styles-desc {
+  .desc {
     margin-top: 80px;
 
     p {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       color: #fff;
       font-family: sans-serif;
-      font-weight: 300;
+      font-weight: 400;
       max-width: fit-content;
+      line-height: 1.8rem;
       animation: pulse 1s;
 
       &:nth-of-type(1) {
         animation-delay: 1.1s;
       }
       &:nth-of-type(2) {
-        animation-delay: 1.2s;
+        animation-delay: 1.3s;
       }
       &:nth-of-type(3) {
-        animation-delay: 1.3s;
+        animation-delay: 1.5s;
       }
     }
 
@@ -122,28 +123,28 @@
   }
 
   .face1 {
-    transform: translateZ(100px);
-    // color: #000000;
+    transform: rotateY(1deg) translateZ(100px);
+    color: #000000;
   }
   .face2 {
     transform: rotateY(90deg) translateZ(100px);
-    // color: #f06529;
+    color: #f06529;
   }
   .face3 {
     transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
-    // color: #28a4d9;
+    color: #28a4d9;
   }
   .face4 {
-    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
-    // color: #5ed4f4;
+    transform: rotateY(181deg) rotateZ(90deg) translateZ(100px);
+    color: #5ed4f4;
   }
   .face5 {
     transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
-    // color: #efd81d;
+    color: #efd81d;
   }
   .face6 {
     transform: rotateX(-90deg) translateZ(100px);
-    // color: #ec4d28;
+    color: #ec4d28;
   }
 }
 
