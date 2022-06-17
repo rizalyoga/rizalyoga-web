@@ -28,7 +28,7 @@ body {
   font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
   background: #002c43;
-  overflow: hidden;
+  // overflow: hidden;
   display: block;
 }
 
@@ -51,7 +51,7 @@ textarea {
   will-change: contents;
   height: 90%;
   min-height: 566px;
-  position: absolute;
+  // position: absolute;
   opacity: 0;
   top: 5%;
   margin: 0 auto;

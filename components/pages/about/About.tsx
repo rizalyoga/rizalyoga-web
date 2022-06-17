@@ -5,12 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import AnimateLetters from '../../animatedLetters/AnimateLetters'
 import Loader from 'react-loaders'
 import {
-  faGithub,
   faCss3,
   faGitAlt,
   faHtml5,
   faJsSquare,
   faReact,
+  faNodeJs
 } from '@fortawesome/free-brands-svg-icons'
 
 
@@ -57,22 +57,22 @@ const AboutPage = () => {
         <div className={styles["stage-cube-cont"]}>
           <div className={styles.cubespinner}>
             <div className={styles.face1}>
-              <FontAwesomeIcon icon={faGithub} />
+              <FontAwesomeIcon style={{'width': "100px"}} icon={faNodeJs} />
             </div>
             <div className={styles.face2}>
-              <FontAwesomeIcon icon={faHtml5} />
+              <FontAwesomeIcon style={{'width': "100px"}} icon={faHtml5} />
             </div>
             <div className={styles.face3}>
-              <FontAwesomeIcon icon={faCss3} />
+              <FontAwesomeIcon style={{'width': "100px"}} icon={faCss3} />
             </div>
             <div className={styles.face4}>
-              <FontAwesomeIcon icon={faReact} />
+              <FontAwesomeIcon style={{'width': "100px"}} icon={faReact} />
             </div>
             <div className={styles.face5}>
-              <FontAwesomeIcon icon={faJsSquare} />
+              <FontAwesomeIcon style={{'width': "100px"}} icon={faJsSquare} />
             </div>
             <div className={styles.face6}>
-              <FontAwesomeIcon icon={faGitAlt} />
+              <FontAwesomeIcon style={{'width': "100px"}} icon={faGitAlt} />
             </div>
           </div>
         </div>
