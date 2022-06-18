@@ -40,7 +40,7 @@ const Sidebar = () => {
                         src={LogoS} 
                         alt='logo' 
                         width="40" 
-                        height="80"
+                        height="55"
                        />
                   </div>
                 </Link>
@@ -50,8 +50,8 @@ const Sidebar = () => {
                         className={styles['sub-logo']} 
                         src={LogoSubtitle} 
                         alt='logo-sub' 
-                        width="60" 
-                        height="10"
+                        width="45" 
+                        height="8"
                        />
                   </div>
                 </Link>

@@ -48,7 +48,7 @@ const HomePage = () => {
           </Link>
         </div>
       </div>
-      <Loader type='pacman' active/>
+      <Loader type='ball-scale-multiple' active/>
     </Layout>
   )
 }

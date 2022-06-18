@@ -2,7 +2,7 @@
   .text-zone {
     position: absolute;
     left: 13%;
-    top: 60%;
+    top: 55%;
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
@@ -35,7 +35,7 @@
       position: absolute;
       margin-top: 18px;
       margin-left: -10px;
-      animation: fadeIn 1s 1.7s backwards;
+      animation: fadeIn 1s 1.3s backwards;
       opacity: 0.6;
     }
   }
@@ -90,7 +90,7 @@
 
   /* ---------------------------------- FORM ---------------------------------- */
   .contact-form {
-    width: 100%;
+    width: 80%;
     margin-top: 50px;
 
     form {
@@ -129,12 +129,24 @@
         width: 100%;
         border: 0;
         background: #115173;
-        height: 50px;
-        font-size: 16px;
+        height: 35px;
+        font-size: 1.4rem;
         color: #fff;
         padding: 0 20px;
         box-sizing: border-box;
         font-family: sans-serif;
+
+        &:active {
+          outline: none !important;
+          border: 1px solid #ffd700;
+          box-shadow: 0 0 10px #719ece;
+        }
+
+        &:focus {
+          outline: none !important;
+          border: 1px solid #ffd700;
+          box-shadow: 0 0 10px #719ece;
+        }
       }
 
       textarea {
@@ -142,12 +154,24 @@
         border: 0;
         background: #115173;
         height: 50px;
-        font-size: 16px;
+        font-size: 1.4rem;
         color: #fff;
         padding: 20px;
         box-sizing: border-box;
         min-height: 150px;
         font-family: sans-serif;
+
+        &:active {
+          outline: none !important;
+          border: 1px solid #ffd700;
+          box-shadow: 0 0 10px #719ece;
+        }
+
+        &:focus {
+          outline: none !important;
+          border: 1px solid #ffd700;
+          box-shadow: 0 0 10px #719ece;
+        }
       }
 
       .flat-button {

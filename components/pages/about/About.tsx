@@ -37,7 +37,7 @@ const AboutPage = () => {
           </h1>
 
           <div className={styles.desc}>
-            <p>
+            <p style={{'animation': "bounceIn 1s"}}>
               I'm very ambitious front-end developer looking for a role in
               established IT company with the opportunity to work with the latest
               technologies on challenging and diverse projects.
@@ -77,7 +77,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <Loader type='pacman' active/>
+      <Loader type='ball-scale-multiple' active/>
     </Layout>
   )
 }

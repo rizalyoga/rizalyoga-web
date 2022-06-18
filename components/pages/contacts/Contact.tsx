@@ -77,6 +77,7 @@ const ContactPage = () => {
                     placeholder="Subject"
                     type="text"
                     name="subject"
+                    autoComplete='off'
                     required
                   />
                 </li>
@@ -95,7 +96,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <Loader type='pacman' active />
+      <Loader type='ball-scale-multiple' active />
     </Layout>
   )
 }

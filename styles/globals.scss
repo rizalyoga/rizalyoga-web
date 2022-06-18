@@ -2,6 +2,7 @@ $primary-color: #ffd700;
 
 @import 'animate.css';
 @import 'loaders.css/src/animations/pacman.scss';
+@import 'loaders.css/src/animations/ball-scale-multiple.scss';
 
 @font-face {
   font-family: 'Helvetica Neue';
@@ -51,7 +52,7 @@ textarea {
   will-change: contents;
   height: 90%;
   min-height: 566px;
-  // position: absolute;
+  position: absolute;
   opacity: 0;
   top: 5%;
   margin: 0 auto;
@@ -66,7 +67,7 @@ textarea {
   display: inline-block;
   opacity: 0;
   animation: bounceIn;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-delay: 1s;
   animation-fill-mode: forwards;
   min-width: 10px;
@@ -78,7 +79,7 @@ textarea {
   animation-fill-mode: both;
 
   &:hover {
-    animation: rubberBand 1s;
+    animation: rubberBand 0.4s;
     color: #ffd700;
   }
 }
@@ -95,11 +96,13 @@ textarea {
   position: absolute;
   left: 0;
   right: 0;
-  margin: auto;
+  margin-top: 25%;
+  margin-left: 50%;
   top: 0;
   bottom: 0;
-  width: 50px;
-  height: 50px;
+  width: 200px;
+  height: 200px;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
+  z-index: 20;
 }
