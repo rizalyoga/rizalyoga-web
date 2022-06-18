@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Layout from '../../../layout/Layout'
 import Loader from 'react-loaders'
 
-import AnimateLetters from '../../animatedLetters/AnimateLetters'
+import AnimateLetters from '../../animations/animatedLetters/AnimateLetters'
 
 const HomePage = () => {
   const [letterClass, setLetterClass] = useState<string>('text-animate');

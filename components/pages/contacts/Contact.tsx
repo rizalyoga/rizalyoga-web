@@ -3,7 +3,7 @@ import Layout from '../../../layout/Layout'
 import Loader from 'react-loaders'
 import styles from "./Contact.module.scss"
 import emailjs from '@emailjs/browser'
-import AnimateLetters from '../../animatedLetters/AnimateLetters'
+import AnimateLetters from '../../animations/animatedLetters/AnimateLetters'
 
 const ContactPage = () => {
   const [letterClass, setLetterClass] = useState<string>('text-animate');

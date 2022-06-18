@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react'
 import Layout from '../../../layout/Layout'
 import styles from "./About.module.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import AnimateLetters from '../../animatedLetters/AnimateLetters'
+import AnimateLetters from '../../animations/animatedLetters/AnimateLetters'
+import SnowAnimations from '../../animations/snow/SnowAnimations'
 import Loader from 'react-loaders'
 import {
   faCss3,
@@ -53,29 +54,30 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-
-        <div className={styles["stage-cube-cont"]}>
-          <div className={styles.cubespinner}>
-            <div className={styles.face1}>
-              <FontAwesomeIcon style={{'width': "100px"}} icon={faNodeJs} />
+            <SnowAnimations />
+            <div className={styles["stage-cube-cont"]}>
+              <div className={styles.cubespinner}>
+                <div className={styles.face1}>
+                  <FontAwesomeIcon style={{'width': "100px"}} icon={faNodeJs} />
+                </div>
+                <div className={styles.face2}>
+                  <FontAwesomeIcon style={{'width': "100px"}} icon={faHtml5} />
+                </div>
+                <div className={styles.face3}>
+                  <FontAwesomeIcon style={{'width': "100px"}} icon={faCss3} />
+                </div>
+                <div className={styles.face4}>
+                  <FontAwesomeIcon style={{'width': "100px"}} icon={faReact} />
+                </div>
+                <div className={styles.face5}>
+                  <FontAwesomeIcon style={{'width': "100px"}} icon={faJsSquare} />
+                </div>
+                <div className={styles.face6}>
+                  <FontAwesomeIcon style={{'width': "100px"}} icon={faGitAlt} />
+                </div>
+              </div>
+   
             </div>
-            <div className={styles.face2}>
-              <FontAwesomeIcon style={{'width': "100px"}} icon={faHtml5} />
-            </div>
-            <div className={styles.face3}>
-              <FontAwesomeIcon style={{'width': "100px"}} icon={faCss3} />
-            </div>
-            <div className={styles.face4}>
-              <FontAwesomeIcon style={{'width': "100px"}} icon={faReact} />
-            </div>
-            <div className={styles.face5}>
-              <FontAwesomeIcon style={{'width': "100px"}} icon={faJsSquare} />
-            </div>
-            <div className={styles.face6}>
-              <FontAwesomeIcon style={{'width': "100px"}} icon={faGitAlt} />
-            </div>
-          </div>
-        </div>
       </div>
       <Loader type='ball-scale-multiple' active/>
     </Layout>
