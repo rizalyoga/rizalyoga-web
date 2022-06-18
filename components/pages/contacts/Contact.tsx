@@ -1,9 +1,13 @@
 import React,{ useState,useRef,useEffect } from 'react'
+import dynamic from "next/dynamic"
 import Layout from '../../../layout/Layout'
 import Loader from 'react-loaders'
 import styles from "./Contact.module.scss"
 import emailjs from '@emailjs/browser'
 import AnimateLetters from '../../animations/animatedLetters/AnimateLetters'
+import 'leaflet/dist/leaflet.css';
+
+const MyAwesomeMap = dynamic(() => import("./MapDynamic"), { ssr:false })
 
 const ContactPage = () => {
   const [letterClass, setLetterClass] = useState<string>('text-animate');
@@ -28,7 +32,10 @@ const ContactPage = () => {
       .then(
         () => {
           alert('Message successfully sent!')
-          // window.location.reload(false);
+          if (typeof window !== "undefined") {
+            // Client-side-only code
+            // window.location.reload(false);
+          }
         },
         () => {
           alert('Failed to send the message, please try again')
@@ -95,6 +102,7 @@ const ContactPage = () => {
             </form>
           </div>
         </div>
+       <MyAwesomeMap />
       </div>
       <Loader type='ball-scale-multiple' active />
     </Layout>
