@@ -1,10 +1,11 @@
 import React,{useState,useEffect} from 'react'
 import styles from "./Home.module.scss"
 import Link from 'next/link'
-import Layout from '../../../layout/Layout'
-import Loader from 'react-loaders'
 
+// Component
+import Layout from '../../../layout/Layout'
 import AnimateLetters from '../../animations/animatedLetters/AnimateLetters'
+import Loader from 'react-loaders'
 
 const HomePage = () => {
   const [letterClass, setLetterClass] = useState<string>('text-animate');

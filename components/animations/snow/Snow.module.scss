@@ -22,7 +22,8 @@
     position: absolute;
     width: 10px;
     height: 10px;
-    background: white;
+    // background: white;
+    background: #fff;
     border-radius: 50%;
 
     @for $i from 1 through $total {

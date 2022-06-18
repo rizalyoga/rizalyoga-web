@@ -14,7 +14,7 @@ const MapDynamic = () => {
       <br />
       <span>ach.rizal.yogaswara@gmail.com</span>
     </div>
-      <div className={styles['map-wrap']}>
+    <div className={styles['map-wrap']}>
       <MapContainer center={[-7.6729369, 112.6120327]} zoom={13} scrollWheelZoom={false}>
         <TileLayer 
          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

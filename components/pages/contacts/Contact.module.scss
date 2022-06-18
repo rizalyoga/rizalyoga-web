@@ -51,17 +51,7 @@
       font-weight: 400;
       max-width: fit-content;
       line-height: 1.8rem;
-      animation: pulse 1s;
-
-      &:nth-of-type(1) {
-        animation-delay: 1.1s;
-      }
-      &:nth-of-type(2) {
-        animation-delay: 1.3s;
-      }
-      &:nth-of-type(3) {
-        animation-delay: 1.5s;
-      }
+      animation: pulse 1s 1.2s;
     }
 
     &::before {
@@ -128,7 +118,7 @@
       input[type='email'] {
         width: 100%;
         border: 0;
-        background: #115173;
+        background: #252839;
         height: 35px;
         font-size: 1.4rem;
         color: #fff;
@@ -145,14 +135,14 @@
         &:focus {
           outline: none !important;
           border: 1px solid #ffd700;
-          box-shadow: 0 0 10px #719ece;
+          box-shadow: 0 0 10px #5180b1;
         }
       }
 
       textarea {
         width: 100%;
         border: 0;
-        background: #115173;
+        background: #252839;
         height: 50px;
         font-size: 1.4rem;
         color: #fff;
@@ -205,7 +195,7 @@
 /* ----------------------------------- MAP ---------------------------------- */
 
 .map-wrap {
-  background: rgba(8, 253, 216, 0.1);
+  background: rgba(41, 105, 243, 0.1);
   float: right;
   width: 53%;
   height: 115%;
@@ -251,8 +241,8 @@
   font-size: 17px;
   font-weight: 300;
   opacity: 0.8;
-  animation: fadeIn 1s 1.5s;
-  animation-fill-mode: forwards;
+  animation: fadeIn 1s 1.5s !important;
+  animation-fill-mode: forwards !important;
 
   span {
     font-size: 16px;
