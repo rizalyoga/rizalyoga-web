@@ -6,6 +6,8 @@ Here is a working live demo : https://rizalyoga.vercel.app/
 
 ## Site
 
+### Homepage
+
 ![](https://github.com/rizalyoga/next-portofolio/tree/main/public/assets/images/home-ss.png)
 
 ## Run in locale
@@ -20,7 +22,7 @@ $ git clone https://github.com/rizalyoga/next-portofolio.git
 $ cd next-portofolio
 
 # Install dependencies
-$ yarn add
+$ yarn
 
 # Run the app
 $ yarn dev
