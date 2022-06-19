@@ -26,9 +26,31 @@ const PortofolioPage = () => {
             strArray={nameArray}
             idx={15}
           />
+
+          <div className={styles.desc}>
+            <p style={{'animation': "pulse 2s"}}>
+              Hi, These are some of the projects I have worked on.
+              <br />
+            </p>
+          </div>
           
           <br />
           </h1>
+        </div>
+        <div className={styles['content-zone']}>
+            <div className={styles['card-container']}>
+                <p>coba</p>
+                <p>coba</p>
+                <p>coba</p>
+                <p>coba</p>
+                <p>coba</p>
+                <p>coba</p>
+                <p>coba</p>
+                <p>coba</p>
+                <p>coba</p>
+                <p>coba</p>
+                <p>coba</p>
+            </div>
         </div>
       </div>
       

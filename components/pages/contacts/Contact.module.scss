@@ -199,7 +199,7 @@
   float: right;
   width: 53%;
   height: 115%;
-  margin-top: -3%;
+  // margin-top: -3%;
   overflow: hidden;
 }
 
@@ -213,14 +213,14 @@
   padding: 20px;
   color: #fff;
   font-family: 'Helvetica';
-  font-size: 17px;
+  font-size: 1.2rem;
   font-weight: 300;
   opacity: 0;
   animation: fadeIn 1s 1.5s;
   animation-fill-mode: forwards;
 
   span {
-    font-size: 16px;
+    font-size: 1.8rem;
 
     span {
       color: #ffd700;
@@ -238,14 +238,14 @@
   padding: 20px;
   color: #fff;
   font-family: 'Helvetica';
-  font-size: 17px;
+  font-size: 1.2rem;
   font-weight: 300;
   opacity: 0.8;
   animation: fadeIn 1s 1.5s !important;
   animation-fill-mode: forwards !important;
 
   span {
-    font-size: 16px;
+    font-size: 1.2rem;
 
     span {
       color: #ffd700;
