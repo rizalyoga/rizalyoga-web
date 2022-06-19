@@ -25,7 +25,7 @@ const Card = () => {
             <div className={styles["desc-container"]}>
                 <h3>{porto.title}</h3>
                 <div className={styles['control-btn']}>
-                  <a href={porto.demoUrl} target='_blank'>Demo</a>
+                  <a href={porto.demoUrl} className={porto.demoUrl ? "" : styles.disabled} target='_blank'>Demo</a>
                   <a href={porto.githubUrl} target='_blank'>Github</a>
                 </div>
             </div>

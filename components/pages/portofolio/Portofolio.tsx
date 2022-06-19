@@ -18,7 +18,7 @@ const PortofolioPage = () => {
   }, []);
 
   return (
-    <Layout>
+    <Layout title=' | Projects'>
       <div className={`container ${styles['portofolio-page']}`}>
         <div className={styles["text-zone"]}>
           <h1>

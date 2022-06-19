@@ -39,7 +39,7 @@
       "cover": "",
       "title": "Trivia Quis",
       "description": "React, JSX, Tailwind, Jest",
-      "demoUrl": "http://google.com",
+      "demoUrl": "",
       "githubUrl": "https://github.com/rizalyoga/trivia-quiz"
     },
     {
@@ -60,14 +60,14 @@
       "cover": "",
       "title": "Shoes Store",
       "description": "React, JSX, Tailwind, Jest",
-      "demoUrl": "http://google.com",
+      "demoUrl": "",
       "githubUrl": "https://github.com/rizalyoga/shoestore"
     },
     {
       "cover": "",
       "title": "Airbnb Clone",
       "description": "React, JSX, Tailwind, Jest",
-      "demoUrl": "http://google.com",
+      "demoUrl": "",
       "githubUrl": "https://github.com/rizalyoga/fe-2-airbnb-app-project"
     }
   ]

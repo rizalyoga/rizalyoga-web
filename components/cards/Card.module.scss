@@ -57,6 +57,17 @@
         background: $primary-color;
       }
     }
+
+    .disabled {
+      color: rgb(136, 136, 136);
+      border: 1px solid #333;
+      pointer-events: none;
+      cursor: none;
+
+      &:hover {
+        background: $background-color;
+      }
+    }
   }
 
   &:hover {
