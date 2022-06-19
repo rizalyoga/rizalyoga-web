@@ -5,6 +5,7 @@
   height: 50%;
   background: $secondary-color;
   border-radius: 3px;
+  padding: 10px 0;
 
   .images-container {
     height: 70%;
@@ -28,7 +29,8 @@
     padding: 0 10px;
     padding-bottom: 15px;
     border: 1.8px solid $background-color;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 0 3px 3px;
+    transition: 0.3s;
 
     h3 {
       font-size: 2rem;
@@ -39,6 +41,7 @@
   .control-btn {
     margin-top: -15px;
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
     font-size: 1.3rem;
 
@@ -63,6 +66,10 @@
 
     img {
       margin: 0 0 0 0;
+    }
+
+    .desc-container {
+      background-color: $background-color;
     }
   }
 }

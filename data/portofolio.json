@@ -1,34 +1,74 @@
 {
   "portfolio": [
     {
-      "cover": "/portfolio/1/one.png",
-      "title": "GGWP",
+      "cover": "/assets/portofolio-cover/anime-war.png",
+      "title": "Anime War",
       "description": "React, JSX, Tailwind, Jest",
-      "url": "http://google.com"
+      "demoUrl": "https://anime-war-rizalyoga.vercel.app/",
+      "githubUrl": "https://github.com/rizalyoga/anime-war"
     },
     {
-      "cover": "/portfolio/1/one.png",
-      "title": "GGWP",
+      "cover": "/assets/portofolio-cover/wedding-stories.png",
+      "title": "Wedding Stories",
       "description": "React, JSX, Tailwind, Jest",
-      "url": "http://google.com"
+      "demoUrl": "https://weddingstories-space.web.app/",
+      "githubUrl": "https://github.com/My-Wedding-Day/FE_My-Wedding-Day"
     },
     {
-      "cover": "/portfolio/1/one.png",
-      "title": "GGWP",
+      "cover": "/assets/portofolio-cover/quran-app.png",
+      "title": "Quran App",
       "description": "React, JSX, Tailwind, Jest",
-      "url": "http://google.com"
+      "demoUrl": "https://quran-rizalyoga.vercel.app/",
+      "githubUrl": "https://github.com/rizalyoga/quran-app"
     },
     {
-      "cover": "/portfolio/1/one.png",
-      "title": "GGWP",
+      "cover": "/assets/portofolio-cover/todo-list.png",
+      "title": "Todo List App",
       "description": "React, JSX, Tailwind, Jest",
-      "url": "http://google.com"
+      "demoUrl": "https://todo-list-app-rizalyoga.vercel.app/",
+      "githubUrl": "https://github.com/rizalyoga/todo-list-app"
     },
     {
-      "cover": "/portfolio/1/one.png",
-      "title": "GGWP",
+      "cover": "/assets/portofolio-cover/movie-list.png",
+      "title": "Movie List App",
       "description": "React, JSX, Tailwind, Jest",
-      "url": "http://google.com"
+      "demoUrl": "https://movieku-rizalyoga.web.app/",
+      "githubUrl": "https://github.com/rizalyoga/movie-list-app"
+    },
+    {
+      "cover": "",
+      "title": "Trivia Quis",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "http://google.com",
+      "githubUrl": "https://github.com/rizalyoga/trivia-quiz"
+    },
+    {
+      "cover": "/assets/portofolio-cover/covid-total.png",
+      "title": "Covid Total",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://covidtotal-rizalyoga.netlify.app/",
+      "githubUrl": "https://github.com/rizalyoga/covid-T"
+    },
+    {
+      "cover": "/assets/portofolio-cover/quote-generator.png",
+      "title": "Quote Generator",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://quotesapps-rizalyoga.netlify.app/",
+      "githubUrl": "https://github.com/rizalyoga/quote-generator"
+    },
+    {
+      "cover": "",
+      "title": "Shoes Store",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "http://google.com",
+      "githubUrl": "https://github.com/rizalyoga/shoestore"
+    },
+    {
+      "cover": "",
+      "title": "Airbnb Clone",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "http://google.com",
+      "githubUrl": "https://github.com/rizalyoga/fe-2-airbnb-app-project"
     }
   ]
 }

@@ -35,7 +35,8 @@ const PortofolioPage = () => {
             <p style={{'animation': "pulse 2s"}}>
               Most of the technologies that I use in my project work are  
               <span> HTML, CSS3, SASS, Javascript, Bootstrap, Tailwind CSS, ReactJS, 
-              NextJS </span> and <span> Github</span>. 
+              NextJS, axios </span> for consume API data, and <span> Github </span> 
+              to collaborate with team members. 
             </p>
           </div>
           
