@@ -5,6 +5,7 @@ import styles from "./Portofolio.module.scss"
 // Component
 import Loader from 'react-loaders'
 import AnimateLetters from '../../animations/animatedLetters/AnimateLetters'
+import Card from "../../cards/Card"
 
 const PortofolioPage = () => {
   const [letterClass, setLetterClass] = useState<string>('text-animate');
@@ -43,18 +44,7 @@ const PortofolioPage = () => {
         </div>
         <div className={styles['content-zone']}>
             <div className={styles['card-container']}>
-                <p>Card</p>
-                <p>Card</p>
-                <p>Card</p>
-                <p>Card</p>
-                <p>Card</p>
-                <p>Card</p>
-                <p>Card</p>
-                <p>Card</p>
-                <p>Card</p>
-                <p>Card</p>
-                <p>Card</p>
-                <p>Card</p>
+                <Card/>
             </div>
         </div>
       </div>

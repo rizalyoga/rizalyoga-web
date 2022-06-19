@@ -1,3 +1,5 @@
+@import 'styles/variables';
+
 .about-page {
   .text-zone {
     position: absolute;
@@ -9,7 +11,7 @@
   }
 
   h1 {
-    color: #ffd700;
+    color: $primary-color;
     font-size: 53px;
     margin: 0;
     font-family: 'Coolvetica';
@@ -19,7 +21,7 @@
     &::before {
       content: '<h1>';
       font-family: 'La Belle Aurore';
-      color: #ffd700;
+      color: $primary-color;
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
@@ -30,7 +32,7 @@
     &::after {
       content: '</h1>';
       font-family: 'La Belle Aurore';
-      color: #ffd700;
+      color: $primary-color;
       font-size: 18px;
       position: absolute;
       margin-top: 18px;
@@ -65,7 +67,7 @@
 
       span {
         a {
-          color: #ffd700;
+          color: $primary-color;
           font-style: italic;
         }
       }
@@ -74,7 +76,7 @@
     &::before {
       content: '<p>';
       font-family: 'La Belle Aurore';
-      color: #ffd700;
+      color: $primary-color;
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
@@ -85,7 +87,7 @@
     &::after {
       content: '</p>';
       font-family: 'La Belle Aurore';
-      color: #ffd700;
+      color: $primary-color;
       font-size: 18px;
       position: absolute;
       margin-top: -5px;

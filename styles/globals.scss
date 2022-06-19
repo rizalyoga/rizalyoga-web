@@ -1,4 +1,4 @@
-$primary-color: #ffd700;
+@import 'styles/variables';
 
 @import 'animate.css';
 @import 'loaders.css/src/animations/pacman.scss';
@@ -28,7 +28,7 @@ body {
   margin: 0;
   font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
-  background: #2f445f;
+  background: $background-color;
   // background: #002c43;
   // overflow: hidden;
   display: block;
@@ -81,7 +81,7 @@ textarea {
 
   &:hover {
     animation: rubberBand 0.4s;
-    color: #ffd700;
+    color: $primary-color;
   }
 }
 

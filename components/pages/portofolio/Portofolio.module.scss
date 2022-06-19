@@ -1,3 +1,5 @@
+@import 'styles/variables';
+
 .portofolio-page {
   display: flex;
   min-height: 100vh;
@@ -15,7 +17,7 @@
     justify-content: center;
 
     h1 {
-      color: #ffd700;
+      color: $primary-color;
       font-size: 5rem;
       width: 100%;
       // margin: 0;
@@ -26,7 +28,7 @@
       &::before {
         content: '<div>';
         font-family: 'La Belle Aurore';
-        color: #ffd700;
+        color: $primary-color;
         font-size: 1.8rem;
         position: absolute;
         margin-top: -40px;
@@ -36,7 +38,7 @@
       &::after {
         content: '</div>';
         font-family: 'La Belle Aurore';
-        color: #ffd700;
+        color: $primary-color;
         font-size: 1.8rem;
         position: absolute;
         margin-top: -20px;
@@ -60,14 +62,14 @@
           // margin-top: 60px;
 
           span {
-            color: #ffd700;
+            color: $primary-color;
           }
         }
 
         &::before {
           content: '<p>';
           font-family: 'La Belle Aurore';
-          color: #ffd700;
+          color: $primary-color;
           font-size: 1.8rem;
           position: absolute;
           margin-top: -40px;
@@ -77,7 +79,7 @@
         &::after {
           content: '</p>';
           font-family: 'La Belle Aurore';
-          color: #ffd700;
+          color: $primary-color;
           font-size: 1.8rem;
           position: absolute;
           margin-top: -5px;
@@ -94,29 +96,30 @@
     min-height: 100vh;
 
     .card-container {
-      margin: auto;
+      // margin: auto;
       // margin-top: 20px;
       width: 100%;
       height: 100%;
-      background: #252839;
+      background: $secondary-color;
       overflow: scroll;
       display: flex;
-      justify-content: center;
+      justify-content: space-evenly;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 1.5rem;
       animation: backInRight 1s 1.2s;
       animation-fill-mode: forwards;
+      padding: 30px;
 
       p {
         color: #fff;
         font-size: 8rem;
         padding: 0 2rem;
-        background: #2f445f;
+        background: $background-color;
         transition: 0.3s;
         cursor: pointer;
 
         &:hover {
-          transform: translateY(-25px);
+          transform: translateY(-15px);
         }
       }
 

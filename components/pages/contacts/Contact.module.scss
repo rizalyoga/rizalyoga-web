@@ -1,3 +1,5 @@
+@import 'styles/variables';
+
 .contact-page {
   .text-zone {
     position: absolute;
@@ -9,7 +11,7 @@
   }
 
   h1 {
-    color: #ffd700;
+    color: $primary-color;
     font-size: 53px;
     margin: 0;
     font-family: 'Coolvetica';
@@ -19,7 +21,7 @@
     &::before {
       content: '<h1>';
       font-family: 'La Belle Aurore';
-      color: #ffd700;
+      color: $primary-color;
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
@@ -30,7 +32,7 @@
     &::after {
       content: '</h1>';
       font-family: 'La Belle Aurore';
-      color: #ffd700;
+      color: $primary-color;
       font-size: 18px;
       position: absolute;
       margin-top: 18px;
@@ -57,7 +59,7 @@
     &::before {
       content: '<p>';
       font-family: 'La Belle Aurore';
-      color: #ffd700;
+      color: $primary-color;
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
@@ -68,7 +70,7 @@
     &::after {
       content: '</p>';
       font-family: 'La Belle Aurore';
-      color: #ffd700;
+      color: $primary-color;
       font-size: 18px;
       position: absolute;
       margin-top: -5px;
@@ -118,7 +120,7 @@
       input[type='email'] {
         width: 100%;
         border: 0;
-        background: #252839;
+        background: $secondary-color;
         height: 35px;
         font-size: 1.4rem;
         color: #fff;
@@ -128,13 +130,13 @@
 
         &:active {
           outline: none !important;
-          border: 1px solid #ffd700;
+          border: 1px solid $primary-color;
           box-shadow: 0 0 10px #719ece;
         }
 
         &:focus {
           outline: none !important;
-          border: 1px solid #ffd700;
+          border: 1px solid $primary-color;
           box-shadow: 0 0 10px #5180b1;
         }
       }
@@ -142,7 +144,7 @@
       textarea {
         width: 100%;
         border: 0;
-        background: #252839;
+        background: $secondary-color;
         height: 50px;
         font-size: 1.4rem;
         color: #fff;
@@ -153,25 +155,25 @@
 
         &:active {
           outline: none !important;
-          border: 1px solid #ffd700;
+          border: 1px solid $primary-color;
           box-shadow: 0 0 10px #719ece;
         }
 
         &:focus {
           outline: none !important;
-          border: 1px solid #ffd700;
+          border: 1px solid $primary-color;
           box-shadow: 0 0 10px #719ece;
         }
       }
 
       .flat-button {
-        color: #ffd700;
+        color: $primary-color;
         font-size: 12px;
         font-family: sans-serif;
         letter-spacing: 3px;
         text-decoration: none;
         padding: 8px 10px;
-        border: 1px solid #ffd700;
+        border: 1px solid $primary-color;
         float: left;
         border-radius: 4px;
         background: 0 0;
@@ -184,7 +186,7 @@
         cursor: pointer;
 
         &:hover {
-          background: #ffd700;
+          background: $primary-color;
           color: #333;
         }
       }
@@ -205,7 +207,7 @@
 
 .info-map {
   position: absolute;
-  background: #262e40;
+  background: $secondary-color;
   top: 50px;
   right: 30%;
   z-index: 999999;
@@ -223,6 +225,6 @@
 
   span {
     font-size: 1.4rem;
-    color: #ffd700;
+    color: $primary-color;
   }
 }

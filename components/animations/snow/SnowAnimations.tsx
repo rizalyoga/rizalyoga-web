@@ -201,6 +201,26 @@ const SnowAnimations = () => {
         <div className={styles.snow}></div>
         <div className={styles.snow}></div>
         <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
+        <div className={styles.snow}></div>
         {/* <div className={styles.child}>
             {children}
         </div> */}
