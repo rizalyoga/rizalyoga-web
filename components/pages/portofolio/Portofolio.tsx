@@ -19,7 +19,7 @@ const PortofolioPage = () => {
   return (
     <Layout>
       <div className={`container ${styles['portofolio-page']}`}>
-      <div className={styles["text-zone"]}>
+        <div className={styles["text-zone"]}>
           <h1>
           <AnimateLetters 
             letterClass={letterClass} 
@@ -31,6 +31,7 @@ const PortofolioPage = () => {
           </h1>
         </div>
       </div>
+      
       <Loader type='ball-scale-multiple' active/>
     </Layout>
   )

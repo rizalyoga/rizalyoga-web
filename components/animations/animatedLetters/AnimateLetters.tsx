@@ -1,7 +1,13 @@
 import React from 'react'
 import styles from "./AnimateLetters.module.scss"
 
-const AnimateLetters = ({letterClass,strArray, idx}:any) => {
+interface ClidrenProps {
+  letterClass: string;
+  strArray: string[];
+  idx: number;
+}
+
+const AnimateLetters = ({letterClass,strArray, idx}:ClidrenProps) => {
   return (
     <span>
         {

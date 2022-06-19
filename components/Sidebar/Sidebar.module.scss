@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 
     .logo {
       display: block;
@@ -52,6 +53,10 @@
       width: 25px;
       font-size: 25px;
       transition: all 0.3s ease-in;
+
+      &:hover {
+        width: 60%;
+      }
     }
 
     .nav-desc {

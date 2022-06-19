@@ -16,7 +16,7 @@ import {
 
 
 const AboutPage = () => {
-  const [letterClass, setLetterClass] = useState('text-animate');
+  const [letterClass, setLetterClass] = useState<string>('text-animate');
 
   useEffect(() => {
     setTimeout(() => {
@@ -38,16 +38,16 @@ const AboutPage = () => {
           </h1>
 
           <div className={styles.desc}>
-            <p style={{'animation': "bounceIn 1s"}}>
+            <p style={{'animation': "pulse 2s"}}>
               I'm very ambitious front-end developer looking for a role in
               established IT company with the opportunity to work with the latest
               technologies on challenging and diverse projects.
             </p>
-            <p>
+            <p style={{'animation': "pulse 2s"}}>
               I'm quietly confident, naturally curious, and perpetually working on
               improving my chops one design problem at a time.
             </p>
-            <p>
+            <p style={{'animation': "pulse 2s"}}>
               If I need to define myself in one sentence that would be a family
               person, father of a beautiful daughter, a sports fanatic
               and tech-obsessed !!!
@@ -76,7 +76,6 @@ const AboutPage = () => {
                   <FontAwesomeIcon style={{'width': "100px"}} icon={faGitAlt} />
                 </div>
               </div>
-   
             </div>
       </div>
       <Loader type='ball-scale-multiple' active/>

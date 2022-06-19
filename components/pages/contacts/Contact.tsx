@@ -57,7 +57,7 @@ const ContactPage = () => {
           </h1>
 
           <div className={styles.desc}>
-            <p>
+            <p style={{'animation': "pulse 2s"}}>
               I am interested in freelance opportunities - especially ambitious or
               large projects. However, if you have other request or question,
               don't hesitate to contact me using below form either.
@@ -69,7 +69,12 @@ const ContactPage = () => {
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className={styles.half}>
-                  <input placeholder="Name" type="text" name="name" required />
+                  <input 
+                    placeholder="Name" 
+                    type="text" 
+                    name="name" 
+                    autoComplete='off'
+                    required />
                 </li>
                 <li className={styles.half}>
                   <input
