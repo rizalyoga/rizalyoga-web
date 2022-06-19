@@ -105,7 +105,7 @@ textarea {
   height: 200px;
   animation: fadeOut 1s 1s;
   animation-fill-mode: forwards;
-  z-index: 20;
+  z-index: -1;
 }
 
 /* --------------------------------- Lraflet -------------------------------- */

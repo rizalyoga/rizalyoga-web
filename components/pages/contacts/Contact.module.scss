@@ -50,7 +50,7 @@
       font-family: sans-serif;
       font-weight: 400;
       max-width: fit-content;
-      line-height: 1.8rem;
+      line-height: 2rem;
       animation: pulse 1s 1.2s;
     }
 
@@ -205,50 +205,24 @@
 
 .info-map {
   position: absolute;
-  background: #000;
+  background: #262e40;
   top: 50px;
   right: 30%;
   z-index: 999999;
-  width: 267px;
+  width: 250px;
   padding: 20px;
   color: #fff;
   font-family: 'Helvetica';
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 300;
-  opacity: 0;
-  animation: fadeIn 1s 1.5s;
-  animation-fill-mode: forwards;
-
-  span {
-    font-size: 1.8rem;
-
-    span {
-      color: #ffd700;
-    }
-  }
-}
-
-.info-map {
-  position: absolute;
-  background: #000;
-  top: 50px;
-  right: 30%;
-  z-index: 999999;
-  width: 267px;
-  padding: 20px;
-  color: #fff;
-  font-family: 'Helvetica';
-  font-size: 1.2rem;
-  font-weight: 300;
-  opacity: 0.8;
-  animation: fadeIn 1s 1.5s !important;
+  letter-spacing: 0.4px;
+  line-height: 1.8rem;
+  opacity: 0.9 !important;
+  animation: bounceIn 1s 1.5s;
   animation-fill-mode: forwards !important;
 
   span {
-    font-size: 1.2rem;
-
-    span {
-      color: #ffd700;
-    }
+    font-size: 1.4rem;
+    color: #ffd700;
   }
 }

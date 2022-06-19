@@ -29,8 +29,12 @@ const PortofolioPage = () => {
 
           <div className={styles.desc}>
             <p style={{'animation': "pulse 2s"}}>
-              Hi, These are some of the projects I have worked on.
-              <br />
+              Hello 👋, These are some of the projects I completed in the past.
+            </p>
+            <p style={{'animation': "pulse 2s"}}>
+              Most of the technologies that I use in my project work are  
+              <span> HTML, CSS3, SASS, Javascript, Bootstrap, Tailwind CSS, ReactJS, 
+              NextJS </span> and <span> Github</span>. 
             </p>
           </div>
           
@@ -39,17 +43,18 @@ const PortofolioPage = () => {
         </div>
         <div className={styles['content-zone']}>
             <div className={styles['card-container']}>
-                <p>coba</p>
-                <p>coba</p>
-                <p>coba</p>
-                <p>coba</p>
-                <p>coba</p>
-                <p>coba</p>
-                <p>coba</p>
-                <p>coba</p>
-                <p>coba</p>
-                <p>coba</p>
-                <p>coba</p>
+                <p>Card</p>
+                <p>Card</p>
+                <p>Card</p>
+                <p>Card</p>
+                <p>Card</p>
+                <p>Card</p>
+                <p>Card</p>
+                <p>Card</p>
+                <p>Card</p>
+                <p>Card</p>
+                <p>Card</p>
+                <p>Card</p>
             </div>
         </div>
       </div>

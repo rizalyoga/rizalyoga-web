@@ -48,9 +48,8 @@ const AboutPage = () => {
               improving my chops one design problem at a time.
             </p>
             <p style={{'animation': "pulse 2s"}}>
-              If I need to define myself in one sentence that would be a family
-              person, father of a beautiful daughter, a sports fanatic
-              and tech-obsessed !!!
+              Visit my <span><a href="https://linkedin.com/in/rizalyoga/" target='_blank'>LinkedIn</a></span> profile for more details. Also you can checkout
+              my cv on this <span><a href="#">Link</a></span>.
             </p>
           </div>
         </div>
