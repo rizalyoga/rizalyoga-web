@@ -6,9 +6,7 @@ Here is a working live demo : https://rizalyoga.vercel.app/
 
 ## Site
 
-### Homepage
-
-![](https://github.com/rizalyoga/next-portofolio/tree/main/public/assets/images/home-ss.png)
+![](https://github.com/rizalyoga/next-portofolio/blob/main/public/assets/images/home-ss.png)
 
 ## Run in locale
 
