@@ -11,27 +11,29 @@ const MyAwesomeMap = dynamic(() => import("./MapDynamic"), { ssr:false })
 
 const ContactPage = () => {
   const [letterClass, setLetterClass] = useState<string>('text-animate');
-  const form = useRef<any>();
+
+  const form = useRef() as React.MutableRefObject<HTMLFormElement>;
 
   useEffect(() => {
     setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
-  }, [])
+  }, [])  
 
-  const sendEmail = (e:any) => {
+  const sendEmail = (e : React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
         'gmail',
-        'template_YeJhZkgb',
+        'template_0pocn8k',
         form.current,
-        'your-token'
+        'BrpzIWl1Fjx3EG4MJ'
       )
       .then(
         () => {
           alert('Message successfully sent!')
+          form.current.reset();
           if (typeof window !== "undefined") {
             // Client-side-only code
             // window.location.reload(false);

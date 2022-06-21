@@ -39,7 +39,7 @@
       "cover": "",
       "title": "Trivia Quis",
       "description": "React, JSX, Tailwind, Jest",
-      "demoUrl": "",
+      "demoUrl": "https://trivia-quis-rizalyoga.netlify.app/",
       "githubUrl": "https://github.com/rizalyoga/trivia-quiz"
     },
     {
@@ -69,6 +69,13 @@
       "description": "React, JSX, Tailwind, Jest",
       "demoUrl": "",
       "githubUrl": "https://github.com/rizalyoga/fe-2-airbnb-app-project"
+    },
+    {
+      "cover": "/assets/portofolio-cover/vhiweb-test.png",
+      "title": "Vhiweb test",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://vhiwebts-rizalyoga.netlify.app/",
+      "githubUrl": "https://github.com/rizalyoga/vhiwebTS"
     }
   ]
 }
