@@ -28,3 +28,21 @@
     }
   }
 }
+
+/* ------------------------------- RESPONSIVE ------------------------------- */
+@media (max-width: 885px) {
+  .mains {
+    .children {
+      .tags {
+        left: 80px;
+        z-index: -10;
+        display: none;
+      }
+
+      .bottom-tags-html {
+        margin-left: 0px;
+        display: none;
+      }
+    }
+  }
+}
