@@ -84,3 +84,17 @@
     }
   }
 }
+
+/* ------------------------------- RESPONSIVE ------------------------------- */
+@media (max-width: 884px) {
+  .container {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 428px) {
+  .container {
+    width: 100%;
+    margin: 0 0 0 5%;
+  }
+}

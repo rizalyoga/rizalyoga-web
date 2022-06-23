@@ -111,3 +111,21 @@
     }
   }
 }
+
+/* ------------------------------- RESPONSIVE ------------------------------- */
+@media (max-width: 884px) {
+  .nav-bar {
+    width: 50px;
+
+    .sosmed {
+      margin-left: -4px;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .nav-bar {
+    height: 100%;
+    min-height: 100vh;
+  }
+}
