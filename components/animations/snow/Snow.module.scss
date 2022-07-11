@@ -56,3 +56,10 @@
     }
   }
 }
+
+/* ------------------------------- RESPONSIVE ------------------------------- */
+@media (max-width: 430px) {
+  .snow-container {
+    display: none;
+  }
+}
