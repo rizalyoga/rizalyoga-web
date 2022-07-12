@@ -81,23 +81,23 @@
     .text-zone {
       position: block;
       left: 20%;
-      // margin-left: 8%;
-      width: 100%;
+      width: 95%;
     }
   }
 }
 
 @media (max-width: 430px) {
   .home-page {
-    .text-zone {
-      position: block;
-      left: 20%;
-      // margin-left: 8%;
-      width: 100%;
-    }
-
     h1 {
       font-size: 4rem;
+    }
+
+    h2 {
+      animation: fadeIn 0.1s backwards;
+    }
+
+    .flat-button {
+      animation: fadeIn 0.1s 0.3s backwards;
     }
   }
 }
