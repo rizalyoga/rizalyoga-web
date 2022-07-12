@@ -228,3 +228,59 @@
     color: $primary-color;
   }
 }
+
+/* ------------------------------- RESPONSIVE ------------------------------- */
+
+@media (max-width: 885px) {
+  .contact-page {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 100vh;
+
+    .text-zone {
+      margin-top: 10vh;
+      margin-bottom: 10px;
+      position: relative;
+      left: 13%;
+      top: 0;
+      transform: none;
+      width: 100%;
+      max-height: 90%;
+    }
+  }
+
+  .map-wrap {
+    background: rgba(41, 105, 243, 0.1);
+    float: none;
+    width: 100%;
+    height: 100%;
+    // margin-top: -3%;
+    overflow: hidden;
+  }
+
+  .info-map {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .contact-page {
+    justify-content: center;
+
+    .text-zone {
+      margin-top: 10vh;
+      margin-bottom: 4vh;
+      position: relative;
+      margin-left: 20px;
+      top: 0;
+      transform: none;
+      width: 100%;
+      max-height: 90%;
+    }
+
+    .map-wrap {
+      display: none;
+    }
+  }
+}
