@@ -129,3 +129,9 @@
     min-height: 100vh;
   }
 }
+
+@media (max-width: 350px) {
+  .navigations {
+    gap: 40px;
+  }
+}
