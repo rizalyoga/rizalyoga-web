@@ -36,6 +36,27 @@
       "githubUrl": "https://github.com/rizalyoga/movie-list-app"
     },
     {
+      "cover": "/assets/portofolio-cover/notes-app.png",
+      "title": "My Personal Notes",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://notes-app-rizalyoga.netlify.app/",
+      "githubUrl": "https://github.com/rizalyoga/notes-app"
+    },
+    {
+      "cover": "/assets/portofolio-cover/rizalyoga.png",
+      "title": "Rizalyoga web",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://rizalyoga.vercel.app/",
+      "githubUrl": "https://github.com/rizalyoga/next-portofolio"
+    },
+    {
+      "cover": "/assets/portofolio-cover/starwars.png",
+      "title": "Star-wars SWAPI",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://star-wars-rizalyoga.netlify.app/",
+      "githubUrl": "https://github.com/rizalyoga/star-wars-sites"
+    },
+    {
       "cover": "",
       "title": "Trivia Quis",
       "description": "React, JSX, Tailwind, Jest",
