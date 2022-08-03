@@ -1,0 +1,4 @@
+{
+  "diffEditor.ignoreTrimWhitespace": true,
+  "editor.minimap.maxColumn": 80
+}
