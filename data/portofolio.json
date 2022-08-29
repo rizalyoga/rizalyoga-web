@@ -50,6 +50,13 @@
       "githubUrl": "https://github.com/rizalyoga/next-portofolio"
     },
     {
+      "cover": "",
+      "title": "Taskify DnD",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/rizalyoga/taskify-dnd"
+    },
+    {
       "cover": "/assets/portofolio-cover/starwars.png",
       "title": "Star-wars SWAPI",
       "description": "React, JSX, Tailwind, Jest",
