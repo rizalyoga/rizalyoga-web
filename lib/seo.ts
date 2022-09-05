@@ -10,7 +10,7 @@ export const cardOpenGraph = {
       width: 1280,
       height: 720,
       alt: 'Social',
-      type: 'image/jpeg',
+      type: 'image/png',
     },
   ],
   site_name: 'Achmad Rizal Yogaswaara - Front End Developer',
