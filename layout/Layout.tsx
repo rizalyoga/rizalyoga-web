@@ -14,7 +14,11 @@ const Layout = ({ children, title = '' }: ChildrenProps) => {
   return (
     <>
       <Head>
-        <link rel="icon" href="./logo.png" type="image/x-icon" />
+        <link
+          rel="icon"
+          href="./favicon_io/favicon-32x32.png"
+          type="image/x-icon"
+        />
         <title>{`Rizalyoga ${title}`}</title>
         <meta name="twitter:image" content={SEO.ogimage}></meta>
       </Head>
