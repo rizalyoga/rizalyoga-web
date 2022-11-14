@@ -28,7 +28,6 @@ const HomePage = () => {
     'p',
     'e',
     'r',
-    '.',
     '',
   ];
 
@@ -44,14 +43,17 @@ const HomePage = () => {
         <div className={styles['text-zone']}>
           <h1>
             <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
+            <span className={`${letterClass} _12`}>a</span>
+            <span className={`${letterClass} _13`}>l</span>
+            <span className={`${letterClass} _14`}>l</span>
+            <span className={`${letterClass} _15`}>o,</span>
             <br />
-            <span className={`${letterClass} _13`}>I'</span>
-            <span className={`${letterClass} _14`}>m,</span>
+            <span className={`${letterClass} _16`}>I'</span>
+            <span className={`${letterClass} _17`}>m,</span>
             <AnimateLetters
               letterClass={letterClass}
               strArray={nameArray}
-              idx={15}
+              idx={18}
             />
 
             <br />

@@ -12,7 +12,7 @@ const Programmer = () => {
     },
   };
 
-  return <Lottie options={defaultOptions} height={600} width={600} />;
+  return <Lottie options={defaultOptions} height={700} width={600} />;
 };
 
 export default Programmer;
