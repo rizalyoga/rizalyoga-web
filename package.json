@@ -27,6 +27,7 @@
     "react-dom": "18.0.0",
     "react-leaflet": "^4.0.0",
     "react-loaders": "^3.0.1",
+    "react-lottie": "^1.2.3",
     "sass": "^1.52.3"
   },
   "devDependencies": {
