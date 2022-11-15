@@ -1,0 +1,8 @@
+.lottie-container {
+  transition: 0.4s;
+  animation: pulse 1s 1.2s;
+}
+
+.lottie-container:hover {
+  transform: scale(1.1);
+}

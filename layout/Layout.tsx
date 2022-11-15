@@ -19,9 +19,31 @@ const Layout = ({ children, title = '' }: ChildrenProps) => {
           href="./favicon_io/favicon-32x32.png"
           type="image/x-icon"
         />
+        <link
+          rel="preload"
+          href="./assets/fonts/helvetica-neu.ttf"
+          as="font"
+          type="font/ttf"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="./assets/fonts/LaBelleAurore.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="./assets/fonts/CoolveticaRg-Regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
         <title>{`Rizalyoga ${title}`}</title>
         <meta name="twitter:image" content={SEO.ogimage}></meta>
       </Head>
+
       <main className={styles.mains}>
         <Sidebar />
         <div className={styles.children}>
