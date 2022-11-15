@@ -1,78 +1,37 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import styles from './Home.module.scss';
-import Link from 'next/link';
-import Image from 'next/image';
 
-import Logo from '../../../public/logo.png';
+import {
+  MouseParallaxChild,
+  MouseParallaxContainer,
+} from 'react-parallax-mouse';
 
 // Component
 import Layout from '../../../layout/Layout';
-import AnimateLetters from '../../animations/animatedLetters/AnimateLetters';
+import LeftContent from './LeftContent';
 import Loader from 'react-loaders';
 import Programmer from '../../animations/lottieAnimations/Programmer';
 
 const HomePage = () => {
-  const [letterClass, setLetterClass] = useState<string>('text-animate');
-  const nameArray = [' ', 'R', 'i', 'z', 'a', 'l', 'y', 'o', 'g', 'a'];
-  const jobArray = [
-    'W',
-    'e',
-    'b',
-    ' ',
-    'D',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-    '',
-  ];
-
-  useEffect((): any => {
-    setTimeout(() => {
-      setLetterClass('text-animate-hover');
-    }, 4000);
-  }, []);
-
   return (
     <Layout>
       <div className={`container ${styles['home-page']}`}>
-        <div className={styles['text-zone']}>
-          <h1>
-            <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>a</span>
-            <span className={`${letterClass} _13`}>l</span>
-            <span className={`${letterClass} _14`}>l</span>
-            <span className={`${letterClass} _15`}>o,</span>
-            <br />
-            <span className={`${letterClass} _16`}>I'</span>
-            <span className={`${letterClass} _17`}>m,</span>
-            <AnimateLetters
-              letterClass={letterClass}
-              strArray={nameArray}
-              idx={18}
-            />
+        <MouseParallaxContainer
+          className={styles.parallax}
+          globalFactorX={0.3}
+          globalFactorY={0.6}
+          resetOnLeave
+        >
+          <div className={styles['text-zone']}>
+            <LeftContent />
+          </div>
 
-            <br />
-
-            <AnimateLetters
-              letterClass={letterClass}
-              strArray={jobArray}
-              idx={21}
-            />
-            <br />
-          </h1>
-          <h2>Frontend Web Developer</h2>
-          <Link href="/contact">
-            <p className={styles['flat-button']}>CONTACT ME</p>
-          </Link>
-        </div>
-        <div className={styles['image-zone']}>
-          <Programmer />
-        </div>
+          <div className={styles['image-zone']}>
+            <MouseParallaxChild factorX={0.6} factorY={0.1}>
+              <Programmer />
+            </MouseParallaxChild>
+          </div>
+        </MouseParallaxContainer>
       </div>
       <Loader type="ball-scale-multiple" active />
     </Layout>

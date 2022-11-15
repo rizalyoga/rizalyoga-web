@@ -1,6 +1,7 @@
 import React from 'react';
 import Lottie from 'react-lottie';
-import animationData from '../../../public/lf30_editor_ib9cahqr.json';
+import animationData from '../../../public/lottie_programmer.json';
+import styles from './ProgrammerLottie.module.scss';
 
 const Programmer = () => {
   const defaultOptions = {
@@ -12,7 +13,11 @@ const Programmer = () => {
     },
   };
 
-  return <Lottie options={defaultOptions} height={700} width={600} />;
+  return (
+    <div className={styles['lottie-container']}>
+      <Lottie options={defaultOptions} height={700} width={600} />;
+    </div>
+  );
 };
 
 export default Programmer;
