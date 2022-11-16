@@ -8,6 +8,7 @@
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
+    z-index: 10;
 
     h1 {
       color: #fff;
@@ -109,12 +110,9 @@
 
 @media (max-width: 430px) {
   .home-page {
-    .text-zone {
-      position: relative;
-      // margin-top: 50%;
-      left: 20%;
-      width: 95%;
-      // height: 100%;
+    .parallax {
+      overflow: visible !important;
+      height: 100%;
     }
 
     h1 {
