@@ -29,6 +29,13 @@
       "githubUrl": "https://github.com/rizalyoga/todo-list-app"
     },
     {
+      "cover": "/assets/portofolio-cover/gund-arm.png",
+      "title": "Gund-Arm.Inc",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://gund-arm.web.app/",
+      "githubUrl": "https://github.com/rizalyoga/gund-arm-company-profile"
+    },
+    {
       "cover": "/assets/portofolio-cover/movie-list.png",
       "title": "Movie List App",
       "description": "React, JSX, Tailwind, Jest",
