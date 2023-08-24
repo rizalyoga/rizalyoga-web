@@ -22,6 +22,13 @@
       "githubUrl": "https://github.com/rizalyoga/quran-app"
     },
     {
+      "cover": "/assets/portofolio-cover/pokemon-light.png",
+      "title": "Poekmon Database",
+      "description": "React, Tailwind, Typescript, Jest",
+      "demoUrl": "https://pokemon-rizalyoga.vercel.app/",
+      "githubUrl": "https://github.com/rizalyoga/pokemon"
+    },
+    {
       "cover": "/assets/portofolio-cover/todo-list.png",
       "title": "Todo List App",
       "description": "React, JSX, Tailwind, Jest",
@@ -48,6 +55,13 @@
       "description": "React, JSX, Tailwind, Jest",
       "demoUrl": "https://notes-app-rizalyoga.netlify.app/",
       "githubUrl": "https://github.com/rizalyoga/notes-app"
+    },
+    {
+      "cover": "/assets/portofolio-cover/kalkulator-rupiah.png",
+      "title": "Kalkulator Rupiah",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://kalkulator-uang.netlify.app/",
+      "githubUrl": "https://github.com/rizalyoga/money-calculator"
     },
     {
       "cover": "/assets/portofolio-cover/rizalyoga.png",
