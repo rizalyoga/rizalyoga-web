@@ -50,6 +50,20 @@
       "githubUrl": "https://github.com/rizalyoga/movie-list-app"
     },
     {
+      "cover": "/assets/portofolio-cover/MIG.png",
+      "title": "MIG Dashboard",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://migdashboard-rizalyoga.netlify.app/",
+      "githubUrl": "https://github.com/rizalyoga/dashboard-mig"
+    },
+    {
+      "cover": "/assets/portofolio-cover/vue-ecommerce.png",
+      "title": "Vue ecommerce catalog",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://ecommerce-rizalyoga.web.app",
+      "githubUrl": "https://github.com/rizalyoga/ecommerce-catalog/"
+    },
+    {
       "cover": "/assets/portofolio-cover/notes-app.png",
       "title": "My Personal Notes",
       "description": "React, JSX, Tailwind, Jest",
@@ -85,7 +99,7 @@
       "githubUrl": "https://github.com/rizalyoga/star-wars-sites"
     },
     {
-      "cover": "",
+      "cover": "/assets/portofolio-cover/trivia-quiz.png",
       "title": "Trivia Quis",
       "description": "React, JSX, Tailwind, Jest",
       "demoUrl": "https://trivia-quis-rizalyoga.netlify.app/",
