@@ -1,6 +1,41 @@
 {
   "portfolio": [
     {
+      "cover": "/assets/portofolio-cover/parbicara.png",
+      "title": "Parbicara",
+      "description": "Next-JS, Typescript, Tailwind, Daisy-UI",
+      "demoUrl": "https://prabicara.vercel.app/",
+      "githubUrl": "https://github.com/rizalyoga/prabicara"
+    },
+    {
+      "cover": "/assets/portofolio-cover/monopoly.png",
+      "title": "Monopoly-SLB",
+      "description": "Next-JS, JSX, Tailwind, Daisy-UI",
+      "demoUrl": "https://monopoly-slb.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "cover": "/assets/portofolio-cover/gund-arm.png",
+      "title": "Gund-Arm.Inc",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://gund-arm.web.app/",
+      "githubUrl": "https://github.com/rizalyoga/gund-arm-company-profile"
+    },
+    {
+      "cover": "/assets/portofolio-cover/rizalyoga.png",
+      "title": "Rizalyoga web",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://rizalyoga.vercel.app/",
+      "githubUrl": "https://github.com/rizalyoga/next-portofolio"
+    },
+    {
+      "cover": "/assets/portofolio-cover/kalkulator-rupiah.png",
+      "title": "Kalkulator Rupiah",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://kalkulator-uang.netlify.app/",
+      "githubUrl": "https://github.com/rizalyoga/money-calculator"
+    },
+    {
       "cover": "/assets/portofolio-cover/anime-war.png",
       "title": "Anime War",
       "description": "React, JSX, Tailwind, Jest",
@@ -36,13 +71,6 @@
       "githubUrl": "https://github.com/rizalyoga/todo-list-app"
     },
     {
-      "cover": "/assets/portofolio-cover/gund-arm.png",
-      "title": "Gund-Arm.Inc",
-      "description": "React, JSX, Tailwind, Jest",
-      "demoUrl": "https://gund-arm.web.app/",
-      "githubUrl": "https://github.com/rizalyoga/gund-arm-company-profile"
-    },
-    {
       "cover": "/assets/portofolio-cover/movie-list.png",
       "title": "Movie List App",
       "description": "React, JSX, Tailwind, Jest",
@@ -69,20 +97,6 @@
       "description": "React, JSX, Tailwind, Jest",
       "demoUrl": "https://notes-app-rizalyoga.netlify.app/",
       "githubUrl": "https://github.com/rizalyoga/notes-app"
-    },
-    {
-      "cover": "/assets/portofolio-cover/kalkulator-rupiah.png",
-      "title": "Kalkulator Rupiah",
-      "description": "React, JSX, Tailwind, Jest",
-      "demoUrl": "https://kalkulator-uang.netlify.app/",
-      "githubUrl": "https://github.com/rizalyoga/money-calculator"
-    },
-    {
-      "cover": "/assets/portofolio-cover/rizalyoga.png",
-      "title": "Rizalyoga web",
-      "description": "React, JSX, Tailwind, Jest",
-      "demoUrl": "https://rizalyoga.vercel.app/",
-      "githubUrl": "https://github.com/rizalyoga/next-portofolio"
     },
     {
       "cover": "",
