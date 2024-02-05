@@ -15,12 +15,27 @@
       "githubUrl": ""
     },
     {
+      "cover": "/assets/portofolio-cover/athalias-blessing.png",
+      "title": "Athalia's Blessing WEB",
+      "description": "React, Tailwind, Typescript",
+      "demoUrl": "https://athalias-blessing.netlify.app",
+      "githubUrl": ""
+    },
+    {
       "cover": "/assets/portofolio-cover/gund-arm.png",
       "title": "Gund-Arm.Inc",
       "description": "React, JSX, Tailwind, Jest",
       "demoUrl": "https://gund-arm.web.app/",
       "githubUrl": "https://github.com/rizalyoga/gund-arm-company-profile"
     },
+    {
+      "cover": "/assets/portofolio-cover/dashboard-kit.png",
+      "title": "Dashboard-KIT",
+      "description": "React, Tailwind, Typescript",
+      "demoUrl": "https://dashboardkit-rizalyoga.netlify.app/",
+      "githubUrl": "https://github.com/rizalyoga/dashboard-kit"
+    },
+
     {
       "cover": "/assets/portofolio-cover/rizalyoga.png",
       "title": "Rizalyoga web",
@@ -34,6 +49,13 @@
       "description": "React, JSX, Tailwind, Jest",
       "demoUrl": "https://kalkulator-uang.netlify.app/",
       "githubUrl": "https://github.com/rizalyoga/money-calculator"
+    },
+    {
+      "cover": "",
+      "title": "News APP | React-Native",
+      "description": "React Native, JSX, expo",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/rizalyoga/news-app-expo"
     },
     {
       "cover": "/assets/portofolio-cover/anime-war.png",
