@@ -15,6 +15,13 @@
       "githubUrl": ""
     },
     {
+      "cover": "/assets/portofolio-cover/shelter-aja.png",
+      "title": "Shelter.Aja",
+      "description": "Next-Js, Tailwind, Typescript",
+      "demoUrl": "https://shelter-aja.vercel.app/",
+      "githubUrl": ""
+    },
+    {
       "cover": "/assets/portofolio-cover/athalias-blessing.png",
       "title": "Athalia's Blessing WEB",
       "description": "React, Tailwind, Typescript",
