@@ -42,7 +42,6 @@
       "demoUrl": "https://dashboardkit-rizalyoga.netlify.app/",
       "githubUrl": "https://github.com/rizalyoga/dashboard-kit"
     },
-
     {
       "cover": "/assets/portofolio-cover/rizalyoga.png",
       "title": "Rizalyoga web",
@@ -51,11 +50,25 @@
       "githubUrl": "https://github.com/rizalyoga/next-portofolio"
     },
     {
+      "cover": "/assets/portofolio-cover/CatatanKu.png",
+      "title": "CatatanKu",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/rizalyoga/CatatanKu"
+    },
+    {
       "cover": "/assets/portofolio-cover/kalkulator-rupiah.png",
       "title": "Kalkulator Rupiah",
       "description": "React, JSX, Tailwind, Jest",
       "demoUrl": "https://kalkulator-uang.netlify.app/",
       "githubUrl": "https://github.com/rizalyoga/money-calculator"
+    },
+    {
+      "cover": "/assets/portofolio-cover/panduan-mesin-cuci.png",
+      "title": "Panduan Mesin Cuci WEB",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://panduan-mesin-cuci.netlify.app/",
+      "githubUrl": ""
     },
     {
       "cover": "",
