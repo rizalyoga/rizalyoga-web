@@ -37,8 +37,8 @@ const PortofolioPage = () => {
                 Most of the technologies that I use in my project work are
                 <span>
                   {' '}
-                  HTML, CSS3, SASS, Javascript, Bootstrap, Tailwind CSS,
-                  ReactJS, NextJS, axios{' '}
+                  HTML, CSS3, SASS, Javascript, Typescript, Bootstrap, Tailwind
+                  CSS, ReactJS, NextJS, VueJS, React Native, axios{' '}
                 </span>
                 for consume API data, and <span> Github </span>
                 to collaborate with team members.

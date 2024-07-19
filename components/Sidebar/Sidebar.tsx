@@ -10,6 +10,7 @@ import {
   faEnvelopesBulk,
   faHomeUser,
   faUserAstronaut,
+  faPager,
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faFacebook,
@@ -43,36 +44,54 @@ const Sidebar = () => {
 
       <div className={styles.navigations}>
         <Link href="/">
-          <FontAwesomeIcon
-            icon={faHomeUser}
-            className={styles['nav-home']}
-            color={currentPage === '/' ? '#FCD500' : '#8a8a8a'}
-            title="Home"
-          />
+          <a>
+            <FontAwesomeIcon
+              icon={faHomeUser}
+              className={styles['nav-home']}
+              color={currentPage === '/' ? '#FCD500' : '#8a8a8a'}
+              title="Home"
+            />
+          </a>
         </Link>
         <Link href="/about">
-          <FontAwesomeIcon
-            icon={faUserAstronaut}
-            className={styles['nav-about']}
-            color={currentPage === '/about' ? '#FCD500' : '#8a8a8a'}
-            title="Profile"
-          />
+          <a>
+            <FontAwesomeIcon
+              icon={faUserAstronaut}
+              className={styles['nav-about']}
+              color={currentPage === '/about' ? '#FCD500' : '#8a8a8a'}
+              title="Profile"
+            />
+          </a>
         </Link>
         <Link href="/portofolio">
-          <FontAwesomeIcon
-            icon={faReact}
-            className={styles[`nav-portofolio`]}
-            color={currentPage === '/portofolio' ? '#FCD500' : '#8a8a8a'}
-            title="Projects"
-          />
+          <a>
+            <FontAwesomeIcon
+              icon={faReact}
+              className={styles[`nav-portofolio`]}
+              color={currentPage === '/portofolio' ? '#FCD500' : '#8a8a8a'}
+              title="Projects"
+            />
+          </a>
         </Link>
         <Link href="/contact">
-          <FontAwesomeIcon
-            icon={faEnvelopesBulk}
-            className={styles[`nav-contact`]}
-            color={currentPage === '/contact' ? '#FCD500' : '#8a8a8a'}
-            title="Contact"
-          />
+          <a>
+            <FontAwesomeIcon
+              icon={faEnvelopesBulk}
+              className={styles[`nav-contact`]}
+              color={currentPage === '/contact' ? '#FCD500' : '#8a8a8a'}
+              title="Contact"
+            />
+          </a>
+        </Link>
+        <Link href="/certificates">
+          <a>
+            <FontAwesomeIcon
+              icon={faPager}
+              className={styles[`nav-certificates`]}
+              color={currentPage === '/certificates' ? '#FCD500' : '#8a8a8a'}
+              title="Certificates"
+            />
+          </a>
         </Link>
       </div>
 
