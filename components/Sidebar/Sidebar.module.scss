@@ -45,39 +45,42 @@
     width: 100%;
     // position: absolute;
 
-    .nav-home,
-    .nav-about,
-    .nav-contact,
-    .nav-portofolio {
-      width: 25px;
-      font-size: 25px;
-      // transition: all 0.3s ease-in;
-    }
-
-    .nav-desc {
-      margin-top: -20px;
-      font-size: 1.4rem;
-      font-family: sans-serif;
-      opacity: 0;
+    a {
+      .nav-home,
+      .nav-about,
+      .nav-contact,
+      .nav-portofolio,
+      .nav-certificates {
+        width: 25px;
+        font-size: 25px;
+        // transition: all 0.3s ease-in;
+      }
 
       & :hover {
-        opacity: 1;
+        color: $primary-color;
+        cursor: pointer;
+
+        svg {
+          opacity: 0;
+        }
+      }
+
+      & .active {
         color: $primary-color;
       }
     }
 
-    & :hover {
-      color: $primary-color;
-      cursor: pointer;
+    // .nav-desc {
+    //   margin-top: -20px;
+    //   font-size: 1.4rem;
+    //   font-family: sans-serif;
+    //   opacity: 0;
 
-      svg {
-        opacity: 0;
-      }
-    }
-
-    & .active {
-      color: $primary-color;
-    }
+    //   & :hover {
+    //     opacity: 1;
+    //     color: $primary-color;
+    //   }
+    // }
   }
 
   .sosmed {

@@ -1,0 +1,125 @@
+{
+  "certificates": [
+    {
+      "id": "1jd6_QaA9asYMyEH6Crhm2iXCDb2fNbPP",
+      "organizer": "Rakamin",
+      "theme": "Intership Front End",
+      "link": "https://drive.google.com/file/d/1jd6_QaA9asYMyEH6Crhm2iXCDb2fNbPP/view?usp=sharing"
+    },
+    {
+      "id": "1AhlFi9iXZDJoYm12-JKFDVZDE5PHMFRH",
+      "organizer": "Dicoding",
+      "theme": "Dasar Pemrograman WEB",
+      "link": "https://drive.google.com/file/d/1AhlFi9iXZDJoYm12-JKFDVZDE5PHMFRH/view?usp=sharing"
+    },
+    {
+      "id": "1JLGJKgt1hQ8-sKFuWViK42hcLWfcDOja",
+      "organizer": "Dicoding",
+      "theme": "Aplikasi WEB dengan React",
+      "link": "https://drive.google.com/file/d/1JLGJKgt1hQ8-sKFuWViK42hcLWfcDOja/view?usp=sharing"
+    },
+    {
+      "id": "1f40oXoIJOky9PZaznGFjjDZEeKw8-wsX",
+      "organizer": "Dicoding",
+      "theme": "Membuat Front-End Web untuk Pemula",
+      "link": "https://drive.google.com/file/d/1f40oXoIJOky9PZaznGFjjDZEeKw8-wsX/view?usp=sharing"
+    },
+    {
+      "id": "1Qv2cB4T9BTLxPW70Z8PThQKMsBbvo8xQ",
+      "organizer": "Dicoding",
+      "theme": "Fundamental Front-End Web Development",
+      "link": "https://drive.google.com/file/d/1Qv2cB4T9BTLxPW70Z8PThQKMsBbvo8xQ/view?usp=sharing"
+    },
+    {
+      "id": "1Aa7aXF95X5k9b7tIKm0QQTe4mADZT5TK",
+      "organizer": "Dicoding",
+      "theme": "Dasar Git dengan Github",
+      "link": "https://drive.google.com/file/d/1Aa7aXF95X5k9b7tIKm0QQTe4mADZT5TK/view?usp=sharing"
+    },
+    {
+      "id": "1-zeol7qR7opwvBed7Jb7tH4FUoxerlwi",
+      "organizer": "Dicoding",
+      "theme": "Belajar Backend Pemula",
+      "link": "https://drive.google.com/file/d/1-zeol7qR7opwvBed7Jb7tH4FUoxerlwi/view?usp=sharing"
+    },
+    {
+      "id": "18td6d-lloJ8yP3xlpnSd0YKMh9Vln5I8",
+      "organizer": "Kominfo FGA",
+      "theme": "Full stack Developer",
+      "link": "https://drive.google.com/file/d/18td6d-lloJ8yP3xlpnSd0YKMh9Vln5I8/view?usp=drive_link"
+    },
+    {
+      "id": "11qRfBap5JbBPRpcGdhT8bIAgdPass8PX",
+      "organizer": "Progate",
+      "theme": "Kursus Javascript",
+      "link": "https://drive.google.com/file/d/11qRfBap5JbBPRpcGdhT8bIAgdPass8PX/view?usp=sharing"
+    },
+    {
+      "id": "1X8dpIlt8Bzcp8TF1o6-QmamgYZKzgFFK",
+      "organizer": "Progate",
+      "theme": "Pengembangan WEB dengan Node-JS",
+      "link": "https://drive.google.com/file/d/1X8dpIlt8Bzcp8TF1o6-QmamgYZKzgFFK/view?usp=sharing"
+    },
+    {
+      "id": "1fbPcaDZnVrKLUbiKkn8G91YbZsUIMiOC",
+      "organizer": "Progate",
+      "theme": "Kursus SASS",
+      "link": "https://drive.google.com/file/d/1fbPcaDZnVrKLUbiKkn8G91YbZsUIMiOC/view?usp=sharing"
+    },
+    {
+      "id": "14MnpG6wD9RsXHTkna3GCdL-RmBJS6hQJ",
+      "organizer": "Progate",
+      "theme": "Kursus SQL",
+      "link": "https://drive.google.com/file/d/14MnpG6wD9RsXHTkna3GCdL-RmBJS6hQJ/view?usp=sharing"
+    },
+    {
+      "id": "1CHe9UwP1XTFGRtkVO7rEk9-CCvXHuB5P",
+      "organizer": "Coursera",
+      "theme": "Google IT-Support",
+      "link": "https://drive.google.com/file/d/1CHe9UwP1XTFGRtkVO7rEk9-CCvXHuB5P/view?usp=sharing"
+    },
+    {
+      "id": "1IqEsm6NUv0MfsjZ1cEUpPseSfm4IPJNP",
+      "organizer": "Dicoding",
+      "theme": "Architecting on AWS",
+      "link": "https://drive.google.com/file/d/1IqEsm6NUv0MfsjZ1cEUpPseSfm4IPJNP/view?usp=sharing"
+    },
+    {
+      "id": "1l6coPqOr8K6e_pteLovC_vV1ERBVvJ59",
+      "organizer": "Dicoding",
+      "theme": "Cloud Practitioner Essentials",
+      "link": "https://drive.google.com/file/d/1l6coPqOr8K6e_pteLovC_vV1ERBVvJ59/view?usp=sharing"
+    },
+    {
+      "id": "1WZuwJcjXdhVSSghPEQYJGq2hJgWmIlSB",
+      "organizer": "Dicoding",
+      "theme": "Dasar DevOps",
+      "link": "https://drive.google.com/file/d/1WZuwJcjXdhVSSghPEQYJGq2hJgWmIlSB/view?usp=sharing"
+    },
+    {
+      "id": "1Qe3S5IbX_nSlPihWrvOTmODke0BzKHPl",
+      "organizer": "Dicoding",
+      "theme": "Jaringan Komputer Pemula",
+      "link": "https://drive.google.com/file/d/1Qe3S5IbX_nSlPihWrvOTmODke0BzKHPl/view?usp=sharing"
+    },
+    {
+      "id": "1iapsFFDB90X7fp66IvhYynJsSJlPyRel",
+      "organizer": "CISCO Networking Academy",
+      "theme": "NDG Linux Essentials course",
+      "link": "https://drive.google.com/file/d/1iapsFFDB90X7fp66IvhYynJsSJlPyRel/view?usp=sharing"
+    },
+    {
+      "id": "1ptqnWMyfZIrUNnHLxywmgzn-NjmiBP3b",
+      "organizer": "CISCO Networking Academy",
+      "theme": "NDG Linux Unhatched course",
+      "link": "https://drive.google.com/file/d/1ptqnWMyfZIrUNnHLxywmgzn-NjmiBP3b/view?usp=sharing"
+    },
+
+    {
+      "id": "1ePf17WhJdgRjUvtqMEjqsFVcOzOGnWyy",
+      "organizer": "CISCO Networking Academy",
+      "theme": "CCNA Routing and Switching: Introduction to Networks",
+      "link": "https://drive.google.com/file/d/1ePf17WhJdgRjUvtqMEjqsFVcOzOGnWyy/view?usp=sharing"
+    }
+  ]
+}

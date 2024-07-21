@@ -1,0 +1,121 @@
+@import 'styles/variables';
+
+.certificate-page {
+  .text-zone {
+    position: absolute;
+    left: 13%;
+    top: 20%;
+    transform: translateY(-50%);
+    width: 60%;
+    max-height: 90%;
+  }
+
+  h1 {
+    color: $primary-color;
+    font-size: 53px;
+    margin: 0;
+    font-family: 'Coolvetica';
+    font-weight: 400;
+    letter-spacing: 2px;
+
+    &::before {
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      color: $primary-color;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -40px;
+      left: -10px;
+      opacity: 0.6;
+    }
+
+    &::after {
+      content: '</h1>';
+      font-family: 'La Belle Aurore';
+      color: $primary-color;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: -10px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+  }
+
+  .thumbnail-zone {
+    position: absolute;
+    left: 13%;
+    top: 61%;
+    transform: translateY(-50%);
+    max-height: 55%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow-y: auto;
+    overflow-x: hidden;
+    gap: 12px;
+    animation: fadeIn 1s 1.2s forwards;
+
+    &::-webkit-scrollbar {
+      width: 0;
+      background: transparent;
+    }
+
+    .certificate-card {
+      max-width: 300px;
+      overflow: hidden;
+
+      .thumbnail-img {
+        cursor: pointer;
+        opacity: 0.78;
+        transition: all 0.3s ease;
+      }
+
+      & :hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+/* ------------------------------- RESPONSIVE ------------------------------- */
+@media (max-width: 884px) {
+  .certificate-page {
+    .thumbnail-zone {
+      margin: 0 22px 0 0;
+      top: 62%;
+      //   margin-left: 8%;
+      max-height: 58%;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+
+@media (max-width: 448px) {
+  .certificate-page {
+    .text-zone {
+      margin-left: 10%;
+    }
+    .thumbnail-zone {
+      top: 65%;
+      margin: 0 22px;
+      max-height: 58%;
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .certificate-page {
+    .text-zone {
+      min-height: 110vh;
+      height: 100%;
+      margin-left: 20%;
+    }
+    .thumbnail-zone {
+      top: 65%;
+      //   margin-left: 18%;
+      max-height: 58%;
+      grid-template-columns: 1fr;
+    }
+  }
+}

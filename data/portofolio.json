@@ -15,6 +15,13 @@
       "githubUrl": ""
     },
     {
+      "cover": "https://raw.githubusercontent.com/rizalyoga/shopping-notes/main/assets/shopping-notes.png?token=GHSAT0AAAAAACD6LB7MKATCTCQBVIUQIGRUZU4R4XQ",
+      "title": "Shopping-notes",
+      "description": "React-Native, Typescript, Native-wind,",
+      "demoUrl": "https://drive.google.com/file/d/1NOc6-F5e8Ur1SGze9IwNKQgbTsg8X8Ce/view",
+      "githubUrl": ""
+    },
+    {
       "cover": "/assets/portofolio-cover/shelter-aja.png",
       "title": "Shelter.Aja",
       "description": "Next-Js, Tailwind, Typescript",
@@ -29,11 +36,18 @@
       "githubUrl": ""
     },
     {
-      "cover": "/assets/portofolio-cover/gund-arm.png",
-      "title": "Gund-Arm.Inc",
+      "cover": "/assets/portofolio-cover/kalkulator-rupiah.png",
+      "title": "Kalkulator Rupiah",
       "description": "React, JSX, Tailwind, Jest",
-      "demoUrl": "https://gund-arm.web.app/",
-      "githubUrl": "https://github.com/rizalyoga/gund-arm-company-profile"
+      "demoUrl": "https://kalkulator-uang.netlify.app/",
+      "githubUrl": "https://github.com/rizalyoga/money-calculator"
+    },
+    {
+      "cover": "/assets/portofolio-cover/CatatanKu.png",
+      "title": "CatatanKu",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "",
+      "githubUrl": "https://github.com/rizalyoga/CatatanKu"
     },
     {
       "cover": "/assets/portofolio-cover/dashboard-kit.png",
@@ -50,18 +64,11 @@
       "githubUrl": "https://github.com/rizalyoga/next-portofolio"
     },
     {
-      "cover": "/assets/portofolio-cover/CatatanKu.png",
-      "title": "CatatanKu",
+      "cover": "/assets/portofolio-cover/gund-arm.png",
+      "title": "Gund-Arm.Inc",
       "description": "React, JSX, Tailwind, Jest",
-      "demoUrl": "",
-      "githubUrl": "https://github.com/rizalyoga/CatatanKu"
-    },
-    {
-      "cover": "/assets/portofolio-cover/kalkulator-rupiah.png",
-      "title": "Kalkulator Rupiah",
-      "description": "React, JSX, Tailwind, Jest",
-      "demoUrl": "https://kalkulator-uang.netlify.app/",
-      "githubUrl": "https://github.com/rizalyoga/money-calculator"
+      "demoUrl": "https://gund-arm.web.app/",
+      "githubUrl": "https://github.com/rizalyoga/gund-arm-company-profile"
     },
     {
       "cover": "/assets/portofolio-cover/panduan-mesin-cuci.png",

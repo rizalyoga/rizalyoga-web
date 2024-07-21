@@ -56,7 +56,7 @@ const AboutPage = () => {
               profile for more details. Also you can checkout my cv on this{' '}
               <span>
                 <a
-                  href="https://drive.google.com/file/d/1D3aLj5fH5YdByN1ZBmu6duzubBYp4yuu/view?usp=sharing"
+                  href="https://drive.google.com/file/d/13ooAoP6iAoM9aCtm1AivANafl9Wb8Lkw/view?usp=drive_link"
                   target="_blank"
                 >
                   Link
