@@ -2,9 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Layout from '../../../layout/Layout';
 import styles from './Certificates.module.scss';
 import AnimateLetters from '../../animations/animatedLetters/AnimateLetters';
-import PortofolioData from '../../../data/portofolio.json';
+import CertificateData from '../../../data/certificate.json';
 
 import Image from 'next/image';
+import Loader from 'react-loaders';
 
 const CertificatesPage = () => {
   const [letterClass, setLetterClass] = useState<string>('text-animate');
@@ -44,22 +45,43 @@ const CertificatesPage = () => {
             <br />
           </h1>
         </div>
+
         <div className={`${styles['thumbnail-zone']}`}>
-          {PortofolioData?.portfolio?.map(
-            (image) =>
-              image?.cover && (
-                <Image
-                  src={image?.cover}
-                  width={340}
-                  height={180}
-                  alt="thumbnail"
-                  key={image.title}
-                  className={styles['thumbnail-img']}
-                />
+          {CertificateData?.certificates?.map(
+            (certificate) =>
+              certificate?.link && (
+                <div
+                  key={certificate.id}
+                  title={`${certificate.organizer} - ${certificate.theme}`}
+                  className={styles['certificate-card']}
+                >
+                  <a href={certificate?.link} target="_blank">
+                    <Image
+                      src={`https://drive.google.com/thumbnail?id=${certificate.id}`}
+                      width={300}
+                      height={180}
+                      alt="thumbnail"
+                      className={styles['thumbnail-img']}
+                    />
+                    <p
+                      style={{
+                        color: 'white',
+                        fontSize: '16px',
+                        fontFamily: 'Helvetica Neue ,sans-serif',
+                        margin: 0,
+                        padding: 0,
+                        fontWeight: '600',
+                      }}
+                    >
+                      {certificate.theme}
+                    </p>
+                  </a>
+                </div>
               )
           )}
         </div>
       </div>
+      <Loader type="ball-scale-multiple" active />
     </Layout>
   );
 };

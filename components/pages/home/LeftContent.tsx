@@ -57,7 +57,9 @@ const LeftContent = () => {
       </h1>
       <h2>Frontend Web Developer</h2>
       <Link href="/contact">
-        <p className={styles['flat-button']}>CONTACT ME</p>
+        <button className={styles['flat-button']} name="contact-btn">
+          CONTACT ME
+        </button>
       </Link>
     </>
   );

@@ -101,6 +101,7 @@ const ContactPage = () => {
                 <li>
                   <input
                     type="submit"
+                    name="submit-btn"
                     className={styles['flat-button']}
                     value="SEND"
                   />

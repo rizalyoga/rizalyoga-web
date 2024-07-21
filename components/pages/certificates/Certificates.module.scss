@@ -47,21 +47,32 @@
     left: 13%;
     top: 61%;
     transform: translateY(-50%);
-    // max-width: 70%;
     max-height: 55%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     overflow-y: auto;
-    gap: 10px;
+    overflow-x: hidden;
+    gap: 12px;
+    animation: fadeIn 1s 1.2s forwards;
 
-    .thumbnail-img {
-      cursor: pointer;
-      opacity: 0.8;
-      transition: all 0.3s ease;
+    &::-webkit-scrollbar {
+      width: 0;
+      background: transparent;
     }
 
-    & :hover {
-      opacity: 1;
+    .certificate-card {
+      max-width: 300px;
+      overflow: hidden;
+
+      .thumbnail-img {
+        cursor: pointer;
+        opacity: 0.78;
+        transition: all 0.3s ease;
+      }
+
+      & :hover {
+        opacity: 1;
+      }
     }
   }
 }
@@ -79,7 +90,7 @@
   }
 }
 
-@media (max-width: 428px) {
+@media (max-width: 448px) {
   .certificate-page {
     .text-zone {
       margin-left: 10%;
