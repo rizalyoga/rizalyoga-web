@@ -63,6 +63,13 @@
         svg {
           opacity: 0;
         }
+
+        &::after {
+          content: '';
+          height: 80px;
+          width: 100%;
+          color: aliceblue;
+        }
       }
 
       & .active {
