@@ -54,6 +54,9 @@
     overflow-x: hidden;
     gap: 12px;
     animation: fadeIn 1s 1.2s forwards;
+    background: $secondary-color;
+    padding: 8px;
+    border-radius: 2px;
 
     &::-webkit-scrollbar {
       width: 0;

@@ -15,6 +15,20 @@
       "githubUrl": ""
     },
     {
+      "cover": "/assets/portofolio-cover/simple-kanban.png",
+      "title": "Simple-Kanban",
+      "description": "React-JS, Typescript, Tailwind",
+      "demoUrl": "https://simple-canban-clone.vercel.app/",
+      "githubUrl": "https://github.com/rizalyoga/simple-canban-clone"
+    },
+    {
+      "cover": "/assets/portofolio-cover/pomodoro-timer.png",
+      "title": "Pomodoro-Timer",
+      "description": "React-JS, Typescript, Tailwind",
+      "demoUrl": "https://pomodoro-timer-rizalyoga.netlify.app/",
+      "githubUrl": "https://github.com/rizalyoga/pomodoro-timer"
+    },
+    {
       "cover": "/assets/portofolio-cover/shopping-notes.png",
       "title": "Shopping-notes",
       "description": "React-Native, Typescript, Native-wind,",
