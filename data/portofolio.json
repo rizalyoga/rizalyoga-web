@@ -1,6 +1,13 @@
 {
   "portfolio": [
     {
+      "cover": "/assets/portofolio-cover/mindmap-autisme.png",
+      "title": "Mindmap-Autisme",
+      "description": "Next-JS, JSX, Tailwind, Daisy-UI",
+      "demoUrl": "https://mindmap-autisme.vercel.app/",
+      "githubUrl": ""
+    },
+    {
       "cover": "/assets/portofolio-cover/parbicara.png",
       "title": "Parbicara",
       "description": "Next-JS, Typescript, Tailwind, Daisy-UI",
@@ -8,10 +15,31 @@
       "githubUrl": "https://github.com/rizalyoga/prabicara"
     },
     {
+      "cover": "/assets/portofolio-cover/GSID.png",
+      "title": "Graha Sarjaya Solusindo",
+      "description": "Next-JS, Typescript, Tailwind, Daisy-UI",
+      "demoUrl": "https://www.grahasarjayasolusindo.com/",
+      "githubUrl": ""
+    },
+    {
       "cover": "/assets/portofolio-cover/monopoly.png",
       "title": "Monopoly-SLB",
       "description": "Next-JS, JSX, Tailwind, Daisy-UI",
       "demoUrl": "https://monopoly-slb.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "cover": "/assets/portofolio-cover/shelter-aja.png",
+      "title": "Shelter.Aja",
+      "description": "Next-Js, Tailwind, Typescript",
+      "demoUrl": "https://shelter-aja.vercel.app/",
+      "githubUrl": ""
+    },
+    {
+      "cover": "/assets/portofolio-cover/athalias-blessing.png",
+      "title": "Athalia's Blessing WEB",
+      "description": "React, Tailwind, Typescript",
+      "demoUrl": "https://athalias-blessing.netlify.app",
       "githubUrl": ""
     },
     {
@@ -36,20 +64,6 @@
       "githubUrl": ""
     },
     {
-      "cover": "/assets/portofolio-cover/shelter-aja.png",
-      "title": "Shelter.Aja",
-      "description": "Next-Js, Tailwind, Typescript",
-      "demoUrl": "https://shelter-aja.vercel.app/",
-      "githubUrl": ""
-    },
-    {
-      "cover": "/assets/portofolio-cover/athalias-blessing.png",
-      "title": "Athalia's Blessing WEB",
-      "description": "React, Tailwind, Typescript",
-      "demoUrl": "https://athalias-blessing.netlify.app",
-      "githubUrl": ""
-    },
-    {
       "cover": "/assets/portofolio-cover/kalkulator-rupiah.png",
       "title": "Kalkulator Rupiah",
       "description": "React, JSX, Tailwind, Jest",
@@ -71,6 +85,20 @@
       "githubUrl": "https://github.com/rizalyoga/dashboard-kit"
     },
     {
+      "cover": "/assets/portofolio-cover/daster-bunda.png",
+      "title": "Daster Bunda Pasuruan",
+      "description": "HTML, CSS, Javascript",
+      "demoUrl": "https://daster-bunda-pasuruan.netlify.app/",
+      "githubUrl": ""
+    },
+    {
+      "cover": "/assets/portofolio-cover/panduan-mesin-cuci.png",
+      "title": "Panduan Mesin Cuci WEB",
+      "description": "React, JSX, Tailwind, Jest",
+      "demoUrl": "https://panduan-mesin-cuci.netlify.app/",
+      "githubUrl": ""
+    },
+    {
       "cover": "/assets/portofolio-cover/rizalyoga.png",
       "title": "Rizalyoga web",
       "description": "React, JSX, Tailwind, Jest",
@@ -83,13 +111,6 @@
       "description": "React, JSX, Tailwind, Jest",
       "demoUrl": "https://gund-arm.web.app/",
       "githubUrl": "https://github.com/rizalyoga/gund-arm-company-profile"
-    },
-    {
-      "cover": "/assets/portofolio-cover/panduan-mesin-cuci.png",
-      "title": "Panduan Mesin Cuci WEB",
-      "description": "React, JSX, Tailwind, Jest",
-      "demoUrl": "https://panduan-mesin-cuci.netlify.app/",
-      "githubUrl": ""
     },
     {
       "cover": "",
