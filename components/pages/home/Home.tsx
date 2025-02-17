@@ -5,12 +5,18 @@ import {
   MouseParallaxChild,
   MouseParallaxContainer,
 } from 'react-parallax-mouse';
+import dynamic from 'next/dynamic';
 
 // Component
 import Layout from '../../../layout/Layout';
 import LeftContent from './LeftContent';
 import Loader from 'react-loaders';
-import Programmer from '../../animations/lottieAnimations/Programmer';
+const LottieProgrammer = dynamic(
+  () => import('../../animations/lottieAnimations/Programmer'),
+  {
+    ssr: false,
+  }
+);
 
 const HomePage = () => {
   return (
@@ -28,7 +34,7 @@ const HomePage = () => {
 
           <div className={styles['image-zone']}>
             <MouseParallaxChild factorX={0.6} factorY={0.1}>
-              <Programmer />
+              <LottieProgrammer />
             </MouseParallaxChild>
           </div>
         </MouseParallaxContainer>
