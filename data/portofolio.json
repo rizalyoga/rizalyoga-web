@@ -15,6 +15,13 @@
       "githubUrl": "https://github.com/rizalyoga/prabicara"
     },
     {
+      "cover": "/assets/portofolio-cover/snake-ladder-cover.png",
+      "title": "Snake and Ladder Math",
+      "description": "Next-JS, Typescript, Tailwind, Daisy-UI",
+      "demoUrl": "https://snake-ladder-math.netlify.app/",
+      "githubUrl": ""
+    },
+    {
       "cover": "/assets/portofolio-cover/GSID.png",
       "title": "Graha Sarjaya Solusindo",
       "description": "Next-JS, Typescript, Tailwind, Daisy-UI",
